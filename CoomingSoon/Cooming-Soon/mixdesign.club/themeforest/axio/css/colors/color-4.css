@@ -1,0 +1,487 @@
+@charset "UTF-8";
+/*! ------------------------------------------------
+ * Project Name: Axio Coming Soon Template
+ * Project Description: Axio - awesome coming soon template to kick-start your project
+ * Tags: mix_design, axio, coming soon, under construction, template, coming soon page, html5, css3
+ * Version: 3.0.0
+ * Build Date: April 2017
+ * Last Update: September 2021
+ * This product is available exclusively on Themeforest
+ * Author: mix_design
+ * Author URI: http://mixdesign.club
+ * File name: color-4.css
+ * ------------------------------------------------
+ *
+ * ------------------------------------------------
+ * Table of Contents
+ * ------------------------------------------------
+ *  1. Basic Color Options
+ *  2. Menu Colors
+ *  3. Intro Сopyright Colors
+ *  4. Main Section Aside Colors
+ *  5. Socials Colors
+ *  6. Buttons & Triggers Colors
+ *  7. Forms and Reply Groups Colors
+ *  8. PhotoSwipe Gallery Colors
+ *  9. Google Map Controls Colors
+ *  10. Scroll Colors
+ *  11. Notify Screen Colors
+ *  12. Stay-in-touch Screen Colors
+ * ------------------------------------------------
+ * Table of Contents End
+ * ------------------------------------------------ */
+/* ------------------------------------------------*/
+/* Basic Color Options Start */
+/* ------------------------------------------------*/
+::-moz-selection {
+  background-color: #ffcfce;
+  color: #070707;
+  text-shadow: none;
+}
+::selection {
+  background-color: #ffcfce;
+  color: #070707;
+  text-shadow: none;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  color: #444;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.headline__subtitle {
+  color: #ffffff;
+}
+
+.headline__description {
+  color: #ffffff;
+}
+
+h2 {
+  color: silver;
+}
+h2::after {
+  background-color: #FFBBB9;
+}
+
+h3 {
+  color: #070707;
+}
+h3.light {
+  color: #ffffff;
+}
+
+h4 {
+  color: #070707;
+}
+h4.light {
+  color: #ffffff;
+}
+
+a {
+  color: #070707;
+}
+a.light {
+  color: #ffffff;
+}
+.no-touch a:hover {
+  color: #346084;
+}
+.no-touch a:hover.light {
+  color: #FFBBB9;
+}
+
+p {
+  color: #070707;
+}
+p.light {
+  color: #ffffff;
+}
+p.copyright {
+  color: rgba(255, 255, 255, 0.6);
+}
+p.copyright a {
+  color: #ffffff;
+}
+.no-touch p.copyright a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.aside__title {
+  color: #ffffff;
+}
+
+.aside__text {
+  color: #ffffff;
+}
+
+.popup__title {
+  color: #070707;
+}
+.popup__title.light {
+  color: #ffffff;
+}
+
+.popup__subtitle {
+  color: #444;
+}
+.popup__subtitle.light {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.clip .words-wrapper::after {
+  background-color: #FFBBB9;
+}
+
+.section-main {
+  background-color: #FFBBB9;
+}
+
+.section-main__intro {
+  background-color: #346084;
+}
+
+.color-layer-medium {
+  background-color: rgba(2, 10, 20, 0.4);
+}
+
+.color-layer-dark {
+  background-color: rgba(2, 10, 20, 0.6);
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.bg-medium {
+  background-color: #FFBBB9;
+}
+
+.bg-dark {
+  background-color: #346084;
+}
+
+/* ------------------------------------------------*/
+/* Basic Color Options End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Menu Colors Start */
+/* ------------------------------------------------*/
+.menu {
+  background-color: #152635;
+}
+@media only screen and (min-width: 1200px) {
+  .menu {
+    background-color: transparent;
+  }
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+.no-touch .navigation li:hover a {
+  color: #FFBBB9;
+}
+
+.menu-close {
+  border: 2px solid #ffffff;
+}
+.menu-close i {
+  color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Menu Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Intro Сopyright Colors Start */
+/* ------------------------------------------------*/
+p.copyright {
+  color: rgba(255, 255, 255, 0.6);
+}
+p.copyright a {
+  color: #ffffff;
+}
+.no-touch p.copyright a:hover {
+  color: #FFBBB9;
+}
+
+/* ------------------------------------------------*/
+/* Intro Сopyright Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Main Section Aside Colors Start */
+/* ------------------------------------------------*/
+.section-main__aside {
+  background-color: #346084;
+  background-repeat: repeat;
+  background-position: top left;
+}
+/* ------------------------------------------------*/
+/* Main Section Aside Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Socials Colors Start */
+/* ------------------------------------------------*/
+.socials li a {
+  color: #ffffff;
+}
+.no-touch .socials li a:hover {
+  color: #FFBBB9;
+}
+
+/* ------------------------------------------------*/
+/* Socials Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Buttons & Triggers Colors Start */
+/* ------------------------------------------------*/
+.button-solid-light {
+  background-color: #FFBBB9;
+  border: 2px solid #FFBBB9;
+  color: #070707;
+}
+.no-touch .button-solid-light:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.button-solid-dark {
+  background-color: #346084;
+  border: 2px solid #346084;
+  color: #ffffff;
+}
+.no-touch .button-solid-dark:hover {
+  background-color: transparent;
+  border: 2px solid #346084;
+  color: #070707;
+}
+
+.button-outline-light {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.no-touch .button-outline-light:hover {
+  background-color: #FFBBB9;
+  border: 2px solid #FFBBB9;
+  color: #070707;
+}
+
+.button-outline-dark {
+  background-color: transparent;
+  border: 2px solid #070707;
+  color: #070707;
+}
+.no-touch .button-outline-dark:hover {
+  background-color: #346084;
+  border: 2px solid #346084;
+  color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Buttons & Triggers Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Forms and Reply Groups Colors Start */
+/* ------------------------------------------------*/
+.form-dark ::-webkit-input-placeholder {
+  color: #8f8f8f;
+}
+.form-dark :-moz-placeholder {
+  color: #8f8f8f;
+}
+.form-dark ::-moz-placeholder {
+  color: #8f8f8f;
+}
+.form-dark :-ms-input-placeholder {
+  color: #8f8f8f;
+}
+.form-dark input:focus:required:invalid,
+.form-dark textarea:focus:required:invalid {
+  color: #070707;
+}
+.form-dark input:required:valid,
+.form-dark textarea:required:valid {
+  color: #070707;
+}
+.form-dark input, .form-dark textarea {
+  border-bottom: 1px solid #444;
+  color: #070707;
+}
+.form-dark input:focus, .form-dark textarea:focus {
+  border-bottom: 1px solid #e6a8a7;
+}
+.form-dark .inputs-description {
+  color: #444;
+}
+
+.form-light ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+.form-light :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+.form-light ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+.form-light :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+.form-light input:focus:required:invalid,
+.form-light textarea:focus:required:invalid {
+  color: #ffffff;
+}
+.form-light input:required:valid,
+.form-light textarea:required:valid {
+  color: #ffffff;
+}
+.form-light input, .form-light textarea {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+.form-light input:focus, .form-light textarea:focus {
+  border-bottom: 1px solid #FFBBB9;
+}
+.form-light .inputs-description {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.reply-group__icon {
+  color: #346084;
+}
+.reply-group__icon.light {
+  color: #FFBBB9;
+}
+
+.reply-group__title {
+  color: #070707;
+}
+.reply-group__title.light {
+  color: #ffffff;
+}
+
+.reply-group__text {
+  color: #444;
+}
+.reply-group__text.light {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ------------------------------------------------*/
+/* Forms and Reply Groups Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* PhotoSwipe Gallery Colors Start */
+/* ------------------------------------------------*/
+.my-gallery__descr {
+  color: #070707;
+}
+.my-gallery__descr::after {
+  background-color: #ffffff;
+}
+
+.pswp__caption__center h4 {
+  color: #ffffff;
+}
+.pswp__caption__center h4 small {
+  color: #ffffff;
+}
+.pswp__caption__center p {
+  color: #ffffff;
+}
+
+.pswp__counter {
+  color: #ffffff;
+}
+
+.pswp__bg {
+  background: #152635;
+}
+
+.pswp__button--close {
+  background-color: #FFBBB9;
+}
+
+/* ------------------------------------------------*/
+/* PhotoSwipe Gallery Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Google Map Controls Colors Start */
+/* ------------------------------------------------*/
+#zoom-in, #zoom-out {
+  background-color: #FFBBB9;
+  color: #070707;
+}
+.no-touch #zoom-in:hover, .no-touch #zoom-out:hover {
+  background-color: #ffcfce;
+}
+
+/* ------------------------------------------------*/
+/* Google Map Controls Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Scroll Colors Start */
+/* ------------------------------------------------*/
+.mCSB_draggerContainer {
+  background-color: transparent;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #FFBBB9;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #2a4d6a;
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-color: #2a4d6a;
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background-color: #2a4d6a;
+}
+
+/* ------------------------------------------------*/
+/* Scroll Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Notify Screen Colors Start */
+/* ------------------------------------------------*/
+.notify {
+  background-color: #1f3a4f;
+}
+
+/* ------------------------------------------------*/
+/* Notify Screen Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Stay-in-touch Screen Colors Start */
+/* ------------------------------------------------*/
+.stayintouch {
+  background-color: #1f3a4f;
+}
+@media only screen and (min-width: 1200px) {
+  .stayintouch {
+    background-color: transparent;
+  }
+}
+
+/* ------------------------------------------------*/
+/* Stay-in-touch Screen Colors End */
+/* ------------------------------------------------*/

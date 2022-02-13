@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from d-themes.com/html/riode/documentation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 11:02:58 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <title>Riode - Ultimate eCommerce Template</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Riode - eCommerce Template">
+    <meta name="author" content="D-THEMES">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png">
+
+    <script>
+        WebFontConfig = {
+            google: { families: ['Poppins:400,500,600,700'] }
+        };
+        (function (d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'js/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
+
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/sticky-icon/stickyicon.css">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/docs.min.css">
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <main class="main">
+            <div class="page-header" style="background-image: url(images/page-header.jpg)">
+                <h1 class="page-title">Riode docs</h1>
+                <div class="widget widget-search mt-5">
+                    <div class="input-wrapper input-wrapper-inline btn-absolute">
+                        <input type="text" class="form-control input-search font-primary" name="search"
+                            autocomplete="off" placeholder="Search ..." required="">
+                        <button class="btn btn-search btn-link" type="submit">
+                            <i class="d-icon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content pt-6 pb-1">
+                <div class="container">
+                    <div class="row gutter-lg main-content-wrap">
+                        <aside class="col-lg-3 sidebar sidebar-fixed shop-sidebar sidebar-toggle-remain">
+                            <div class="sidebar-overlay">
+                            </div>
+                            <a class="sidebar-close" href="#"><i class="d-icon-times"></i></a>
+                            <a href="#" class="sidebar-toggle"><i class="fas fa-chevron-right"></i></a>
+                            <div class="sidebar-content">
+                                <div class="filter-actions pt-4 pb-6">
+                                    <a href="#"
+                                        class="sidebar-toggle-btn toggle-remain btn btn-link btn-icon-left pl-0"><i
+                                            class="d-icon-bars2"></i>Documents</a>
+                                </div>
+                                <div class="widget widget-collapsible">
+                                    <h3 class="widget-title">Getting Started</h3>
+                                    <ul class="widget-body filter-items search-ul list-arrow">
+                                        <li><a href="#template-welcome" data-title="Getting Started"
+                                                class="document-link">Welcome</a></li>
+                                        <li><a href="#template-features" data-title="Getting Started"
+                                                class="document-link">Features</a></li>
+                                        <li><a href="#template-structure" data-title="Getting Started"
+                                                class="document-link">Files Structure</a></li>
+                                    </ul>
+                                </div>
+                                <div class="widget widget-collapsible">
+                                    <h3 class="widget-title collapsed">Stylesheets</h3>
+                                    <ul class="widget-body filter-items search-ul list-arrow">
+                                        <li><a href="#template-css-overview" data-title="Stylesheets"
+                                                class="document-link">Overview</a></li>
+                                        <li><a href="#template-css-mixins" data-title="Stylesheets"
+                                                class="document-link">Mixins</a></li>
+                                        <li><a href="#template-css-configuration" data-title="Stylesheets"
+                                                class="document-link">Configuration</a></li>
+                                        <li><a href="#template-css-variables" data-title="Stylesheets"
+                                                class="document-link">Variables</a></li>
+                                    </ul>
+                                </div>
+                                <div class="widget widget-collapsible">
+                                    <h3 class="widget-title collapsed">Javascripts</h3>
+                                    <ul class="widget-body filter-items search-ul list-arrow">
+                                        <li><a href="#template-js-overview" data-title="Javascripts"
+                                                class="document-link">Overview</a></li>
+                                    </ul>
+                                </div>
+                                <div class="widget widget-collapsible">
+                                    <h3 class="widget-title collapsed">Components</h3>
+                                    <ul class="widget-body filter-items search-ul list-arrow">
+                                        <li><a href="#template-com-accordion" data-title="Components"
+                                                class="document-link">Accordion</a></li>
+                                        <li><a href="#template-com-alert" data-title="Components"
+                                                class="document-link">Alert</a></li>
+                                        <li><a href="#template-com-blog" data-title="Components"
+                                                class="document-link">Blog</a></li>
+                                        <li><a href="#template-com-button" data-title="Components"
+                                                class="document-link">Button</a></li>
+                                        <li><a href="#template-com-category" data-title="Components"
+                                                class="document-link">Category</a></li>
+                                        <li><a href="#template-com-grid" data-title="Components"
+                                                class="document-link">Grid</a></li>
+                                        <li><a href="#template-com-hotspot" data-title="Components"
+                                                class="document-link">Hotspot</a></li>
+                                        <li><a href="#template-com-icon" data-title="Components"
+                                                class="document-link">Icon</a></li>
+                                        <li><a href="#template-com-icon-box" data-title="Components"
+                                                class="document-link">Icon Box</a></li>
+                                        <li><a href="#template-com-instagram" data-title="Components"
+                                                class="document-link">Instagram</a></li>
+                                        <li><a href="#template-com-member" data-title="Components"
+                                                class="document-link">Member</a></li>
+                                        <li><a href="#template-com-minipopup" data-title="Components"
+                                                class="document-link">Minipopup</a></li>
+                                        <li><a href="#template-com-popup" data-title="Components"
+                                                class="document-link">Popup</a></li>
+                                        <li><a href="#template-com-product" data-title="Components"
+                                                class="document-link">Product</a></li>
+                                        <li><a href="#template-com-sidebar" data-title="Components"
+                                                class="document-link">Sidebar</a></li>
+                                        <li><a href="#template-com-slider" data-title="Components"
+                                                class="document-link">Slider</a></li>
+                                        <li><a href="#template-com-store" data-title="Components"
+                                                class="document-link">Store</a></li>
+                                        <li><a href="#template-com-tab" data-title="Components"
+                                                class="document-link">Tab</a></li>
+                                        <li><a href="#template-com-testimonial" data-title="Components"
+                                                class="document-link">Testimonial</a></li>
+                                        <li><a href="#template-com-title" data-title="Components"
+                                                class="document-link">Title</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                        <div class="col-lg-9 main-content">
+                            <h2 class="title title-line" id="document-title">Getting Started</h2>
+
+                            <script type="text/html" id="template-welcome">
+                                <h5>Welcome to Riode HTML</h5>
+        
+                                <p>Thank you for choosing Riode HTML!<br>We are very pleased that you have chosen Riode for your website and you will not be disappointed with your choice.</p>
+        
+                                <ul class="list list-circle mb-4 ml-0">
+                                    <li><i class="fas fa-shopping-cart"></i>Riode is specifically designed for <b>eCommerce</b> sites.</li>
+                                    <li><i class="fas fa-rocket"></i>Riode is the most <b>powerful, fastest responsive</b> theme with tons of features and trendy designs.</li>
+                                    <li><i class="fas fa-check"></i>Riode is based on <b>HTML5</b> and <b>CSS3</b>, and works perfectly fine with <b>all the browsers</b>.</li>
+                                    <li><i class="fas fa-layer-group"></i>Riode includes <b>50 elegant demo pages</b> and <b>118 subpages</b>.</li>
+                                </ul>
+        
+                                <p>Please read our documentation before you get started, and if you have any questions, please feel free to contact us through the themeforest support page.</p>
+                                <p>Thank you, we hope you enjoy using Riode HTML!</p>
+                            </script>
+
+                            <script type="text/html" id="template-features">
+                                <h5>Features</h5>
+    
+                                <div class="row cols-sm-2 cols-md-3 cols-lg-4 pt-4">
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">eCommerce</h4>
+                                            <p>Riode helps you build eCommerce sites in a fast yet perfect way.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-desktop"></i>
+                                            <i class="fas fa-mobile-alt"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Responsive Design</h4>
+                                            <p>Everything in Riode is perfectly responsive on any device.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="far fa-edit"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Fully Customizable</h4>
+                                            <p>Riode helps you implement your idea without efforts.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-layer-group"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Limitless Components</h4>
+                                            <p>Riode provides a huge number of UI/UX trendy components.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fab fa-sass"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Configurable sass</h4>
+                                            <p>To help css optimization, Riode provides a powerful sass configuration.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Fast performance</h4>
+                                            <p>Riode ensures the fastest performance of showing layouts and running javascript.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-graduation-cap"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">Qualified Code</h4>
+                                            <p>Anyone can easily understand Riode and quickly get down to working on projects.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon-solid text-center mb-8">
+                                        <span class="icon-box-icon">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+                                        <div class="icon-box-content">
+                                            <h4 class="icon-box-title text-normal">All pages</h4>
+                                            <p>50 demo pages, 30 shop pages, 30&nbsp;product pages, 13 blog pages, 35&nbsp;element pages, 10 subpages.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </script>
+
+                            <script type="text/html" id="template-structure">
+                                <h5>Files Structure</h5>
+                                <p>Riode has so simple file structure that anyone can easily understand.<br>This section will give you the entire file structure of Riode.</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Path</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><code>documentation</code></td>
+                                            <td>The theme documentation</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>theme</code></td>
+                                            <td>Main theme</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>ajax</code></td>
+                                            <td>Ajax content</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>css</code></td>
+                                            <td>css folder</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>fonts</code></td>
+                                            <td>Fonts</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>images</code></td>
+                                            <td>Image files</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>js</code></td>
+                                            <td>The theme javascript files</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>sass</code></td>
+                                            <td>Sass folder</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>base</code></td>
+                                            <td>Base stylesheets</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>components</code></td>
+                                            <td>Component stylesheets</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>config</code></td>
+                                            <td>Default configuration for colors, fonts and media breakpoints</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>demos</code></td>
+                                            <td>Stylesheets for individual demos</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>mixins</code></td>
+                                            <td>Mixins for media breakpoints and configuration of variables</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-10"><code>pages</code></td>
+                                            <td>Stylesheets for subpages</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>vendor</code></td>
+                                            <td>3rd-party vendors that are included in the theme</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-6"><code>video</code></td>
+                                            <td>Video files</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </script>
+
+                            <script type="text/html" id="template-css-overview">
+                                <h5>Overview</h5>
+
+                                <p>Riode uses <a href="https://sass-lang.com/" >SASS</a> as the css processor, the most powerful professional grade CSS extension language.</p>
+
+                                <h6 class="mb-1">Helper Classes</h6>
+                                <p>Riode defines useful helper classes for free customization.</p>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:70%">Class</th>
+                                            <th style="width:30%">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><code>w-100</code><code>h-100</code><code>h-auto</code><code>x-50</code><code>y-50</code><code>p-sticky</code><code>p-relative</code><code>p-absolute</code><code>p-sticky</code></td>
+                                            <td>Width, height, position helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <code>d-none</code><code>d-block</code><code>d-inline-block</code><code>d-flex</code><code>d-inline-flex</code><code>d-lg-none</code><code>d-lg-block</code><code>d-lg-flex</code><code>d-lg-inline-flex</code><code>d-lg-show</code><code>d-xl-none</code><code>d-xl-block</code><code>d-xl-flex</code><code>d-xl-inline-flex</code><code>d-xl-show</code><code>d-md-show</code><code>d-xs-show</code>
+                                            </td>
+                                            <td>Display helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>justify-content-center</code><code>justify-content-start</code><code>justify-content-end</code><code>justify-content-between</code><code>align-items-start</code><code>align-items-center</code><code>align-items-end</code><code>flex-column</code><code>flex-wrap</code><code>flex-1</code></td>
+                                            <td>Flex helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>overflow-hidden</code></td>
+                                            <td>Overflow helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>font-primary</code><code>font-secondary</code><code>font-tertiary</code></td>
+                                            <td>Font family helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>font-weight-bolder</code><code>font-weight-bold</code><code>font-weight-semi-bold</code><code>font-weight-normal</code><code>font-weight-light</code></td>
+                                            <td>Font weight helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>font-italic</code><code>font-normal</code></td>
+                                            <td>Font style helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>text-left</code><code>text-center</code><code>text-right</code></td>
+                                            <td>Text align helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>text-uppercase</code><code>text-capitalize</code><code>text-normal</code></td>
+                                            <td>Text transform helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>text-white</code><code>text-light</code><code>text-grey</code><code>text-body</code><code>text-dark</code><code>text-black</code><code>text-primary</code><code>text-secondary</code></td>
+                                            <td>Text color helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>ls-s</code><code>ls-m</code><code>ls-md</code><code>ls-l</code><code>ls-normal</code></td>
+                                            <td>Letter spacing helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>lh-0</code><code>lh-1</code><code>lh-2</code></td>
+                                            <td>Line height helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>bg-white</code><code>bg-dark</code><code>bg-grey</code><code>bg-light</code><code>bg-black</code><code>bg-primary</code><code>bg-secondary</code></td>
+                                            <td>Background color helper</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>border-no</code></td>
+                                            <td>No border helper</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </script>
+
+                            <script type="text/html" id="template-css-mixins">
+                                <h5>Mixins</h5>
+                                
+                                <p>Riode supports several mixins for responsiveness, compatibility with some browsers and retina display.</p>
+
+                                <table class="table">
+                                    <thead>
+                                        <th>Mixins</th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><code>mq($mq-breakpoint, $mq-width: 'min-width', $mq-breakpoints: $breakpoints)</code></td>
+                                            <td>Generate media queries for responsiveness.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>button-variant($color)</code></td>
+                                            <td>Generate button types whose color, border-color and background-color are set related to $color.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>only-for-ie</code></td>
+                                            <td>Generate css for only Internet Explorer.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>only-for-edge</code></td>
+                                            <td>Generate css for only Edge.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>only-for-retina($pixel-ratio)</code></td>
+                                            <td>Generate css for retina display.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>text-block($row-count)</code></td>
+                                            <td>Set the number of rows to be shown. The rest rows are not shown on the screen.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </script>
+                            <script type="text/html" id="template-css-configuration">
+                                <h5>Configuration</h5>
+
+                                <p>Riode uses some predefined colors, fonts, media breakpoints. These are written in <code>sass/config/_variable.scss</code></p>
+
+                                <h6>Predefined colors</h6>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Variable</th><th>Default value</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>$primary-color</code></td><td style="background: #26b; color: #fff">#26b</td></tr>
+                                        <tr><td><code>$primary-color-dark</code></td><td style="background: #222; color: #fff">#222</td></tr>
+                                        <tr><td><code>$secondary-color</code></td><td style="background: #d26e4b; color: #fff">#d26e4b</td></tr>
+                                        <tr><td><code>$alert-color</code></td><td style="background: #b10001; color: #fff">#b10001 </td></tr>
+                                        <tr><td><code>$success-color</code></td><td style="background: #a8c26e; color: #fff">#a8c26e</td></tr>
+                                        <tr><td><code>$body-color</code></td><td style="background: #666; color: #fff">#666</td></tr>
+                                        <tr><td><code>$dark-color</code></td><td style="background: #222; color: #fff">#222</td></tr>
+                                        <tr><td><code>$light-color</code></td><td style="background: #ccc; color: #222">#ccc</td></tr>
+                                        <tr><td><code>$grey-color</code></td><td style="background: #999; color: #fff">#999</td></tr>
+                                        <tr><td><code>$border-color</code></td><td style="background: #e1e1e1; color: #222">#e1e1e1</td></tr>
+                                        <tr><td><code>$border-color-light</code></td><td style="background: #eee; color: #222">#eee</td></tr>
+                                        <tr><td><code>$white-color</code></td><td style="background: #fff; color: #222">#fff</td></tr>
+                                    </tbody>
+                                </table>
+
+                                <h6>Predefined font</h6>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Variable</th><th>Default value</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>$alt-font-family</code></td><td>sans-serif</td></tr>
+                                        <tr><td><code>$font-family</code></td><td>Poppins, $alt-font-family</td></tr>
+                                        <tr><td><code>$second-font-family</code></td><td>Poppins, $alt-font-family</td></tr>
+                                        <tr><td><code>$third-font-family</code></td><td>'Open Sans', $alt-font-family</td></tr>
+                                    </tbody>
+                                </table>
+
+                                <h6>Predefined breakpoints</h6>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Breakpoint</th><th>Min value</th><th>Max value</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>xs</code></td><td>480px</td><td>479px</td></tr>
+                                        <tr><td><code>sm</code></td><td>576px</td><td>575px</td></tr>
+                                        <tr><td><code>md</code></td><td>768px</td><td>767px</td></tr>
+                                        <tr><td><code>lg</code></td><td>992px</td><td>991px</td></tr>
+                                        <tr><td><code>xl</code></td><td>1200px</td><td>1199px</td></tr>
+                                        <tr><td><code>xxl</code></td><td>1600px</td><td>1599px</td></tr>
+                                        <tr><td><code>xlst</code></td><td>1920px</td><td></td></tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="row cols-sm-2">
+                                    <div>
+                                        <p>When you want min-width media query</p>
+                                        <pre>
+@include mq(xs) {
+    h1 {
+        font-size: 3rem;
+    }
+}</pre>
+                                        <p>Then the codes are compiled to:</p>
+                                        <pre>
+@media (min-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+}</pre>
+                                    </div>
+
+                                    <div>
+                                        <p>When you want max-width media query</p>
+                                        <pre>
+@include mq(xs, max) {
+    h1 {
+        font-size: 3rem;
+    }
+}</pre>
+                                        <p>Then the codes are compiled to:</p>
+                                        <pre>
+@media (max-width: 479px) {
+    h1 {
+        font-size: 3rem;
+    }
+}</pre>
+                                    </div>
+                                </div>
+                            </script>
+
+                            <script type="text/html" id="template-css-variables">
+                                <h5>Variables</h5>
+                                <p>Riode has the most advanced sass configuration. The sass variables can easily be reset to reduce css and selector's depth without modifying source code.</p>
+        
+                                <h6>Example: header's base config</h6>
+                                <p>Default variables for header is in <code>sass/base/_header.scss</code>.</p>
+                                <pre>
+        // Variables
+        @include set-default(
+        (
+        header: (
+            font-family: "'Open Sans', sans-serif",
+            letter-spacing:  -.025em,
+            color: false,
+            background: #fff,
+            border-bottom: false,
+            // Link's color
+            _link-color: false,
+            // Link's color when it is hover or active
+            _link-active-color: $primary-color,
+            
+            transparent: (
+                fixed: (
+                    background: #222
+                )
+            ),
+            // Header Top
+            top: (
+                padding-top: false,
+                padding-bottom: false,
+                color: false,
+                background: #f2f3f5,
+                border-bottom: false,
+                font-family: false,
+                font-size: 1.1rem,
+                font-weight: false,
+                letter-spacing: -0.014em,
+                text-transform: uppercase,
+                _links-gap: 1.9rem,
+            ),
+            // Header Middle
+            middle: (
+                padding-top: 2.8rem,
+                padding-bottom: 2.8rem,
+                color: #222,
+                background: #fff,
+                border-bottom: false,
+                font-family: false,
+                font-size: 1.2rem,
+                font-weight: 700,
+                letter-spacing: false,
+                text-transform: false,
+                logo: (
+                    margin-right: 4.1rem,
+                    _mobile-margin-right: 2rem
+                ),
+            ),
+            // Header Bottom
+            bottom: (
+                padding-top: false,
+                padding-bottom: false,
+                color: false,
+                background: #fff,
+                border-top: false,
+                border-bottom: false,
+                font-family: false,
+                font-size: 1.3rem,
+                font-weight: false,
+                letter-spacing: false,
+                text-transform: false,
+            ),
+            // Inner Wrap ( child of header container or header container-fluid )
+            inner-wrap: (
+                padding: false
+            ),
+            // Sticky Header
+            sticky: (
+                padding-top: 1.3rem,
+                padding-bottom: 1.3rem,
+                background: false,
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1),
+                color: false
+            ),
+            // MainMenu
+            main-nav: (
+                margin: false,
+                padding: false,
+                background: false
+            ),
+            // MobileMenu Toggle
+            mmenu-toggle: (
+                color: $primary-color,
+            ),
+            // Header Search
+            search: (
+                // Toggle Search
+                toggle: (
+                    padding: 1.1rem 0,
+                    width: 30rem
+                ),
+                // Expanded Search
+                expanded: (
+                    width: 53rem,
+                    height: false
+                ),
+                // Shape is round
+                round: (
+                    width: 26rem,
+                    height: false
+                )
+            ),
+            // Logo
+            logo: (
+                max-width: 200px
+            ),
+            // Links
+                // Login
+                login: (
+                    label: (
+                        _gap: .9rem,
+                        font-weight: inherit,
+                        text-transform: uppercase
+                    ),
+                    icon: (
+                        font-size: 1.8rem
+                    )
+                ),
+                // Call
+                call: (
+                    label: (
+                        _gap: .9rem,
+                        font-size: false,
+                        font-weight: inherit,
+                        line-height: false,
+                        text-transform: uppercase,
+                    ),
+                    icon: (
+                        margin: 0 .2rem .2rem 0,
+                        font-size: 1.8rem
+                    )
+                ),
+                // Wishlist
+                wishlist: (
+                    label: (
+                        _gap: false,
+                        font-weight: inherit,
+                        text-transform: false,
+                    ),
+                    icon: (
+                        font-size: false
+                    )
+                ),
+        )
+        )
+        );</pre>
+                                <h6>Example: customize header</h6>
+                                <p>Following codes are used to customize  <a href="demo30.html" >30th demo</a>'s config <code>sass/demos/demo30/_demo30_config.scss</code>.</p>
+                                <ul>
+                                    <li>If you want to override config, please use <code>set</code> mixin and write a variable.</li>
+                                    <li>If you want to remove unnecessary css codes, please set <code>false</code> value.</li>
+                                </ul>
+                                <pre>
+        /* 
+        Demo 30 Variables
+        */
+        @include set(
+        (
+        base: (
+            title: (
+                margin-bottom: 3rem, // Default variable can be overridden or a new variable can be made.
+                font-size: 2.4rem,
+                letter-spacing: -0.025em,
+                text-transform: none,
+                color: #333,
+        
+                border: (
+                    color: #f4f4f4,
+                    active-color: #333,
+                    line-height: 40px
+                )
+            ),
+        ),
+        header: (
+            middle: (
+                padding-top: 2.4rem,
+                padding-bottom: 2.4rem,
+                color: #2f3945
+            ),
+            call: (
+                label: (
+                    gap: .5rem,
+                    font-size: 1.1rem,
+                    font-weight: false,
+                    line-height: 1.2,
+                ),
+                icon: (
+                    font-size: 3rem
+                )
+            ),
+            cart: (
+                toggle: (
+                    padding: 1.5rem 0,
+                ),
+                icon: (
+                    color: false, // To remove unnecessary css property, <code>false</code> value can be used.
+                )
+            )
+        ),
+        menu: (
+            ancestor: (
+                gap: 4.2rem,
+                font-family: $second-font-family,
+                font-size: 1.4rem,
+                font-weight: 600,
+                color: #333,
+            )
+        ),
+        post: (
+            body: (
+                padding: 1.9rem 0 2.5rem
+            ),
+            info: (
+                margin-bottom: .7rem
+            ),
+            title: (
+                text-transform: none,
+                font-size: 1.4rem,
+                font-family: $font-family,
+                letter-spacing: 0,
+                color: #444
+            ),
+            btn: (
+                icon-gap: 5px,
+            )
+        ),
+        footer: (
+            background: #f7f8fc,
+            social-active-color: $primary-color,
+        
+            top: (
+                padding: 3rem 0 2.5rem,
+                border-bottom: 1px solid #eaecf0,
+            ),
+            middle: (
+                border-bottom: 1px solid #eaecf0,
+        
+                widget: (
+                    title: (
+                        margin-bottom: 0,
+                        color: #333,
+                        font-family: $second-font-family,
+                        font-weight: 700,
+                    ),
+                    body: (
+                        color: #777,
+                    ),
+                    label: (
+                        color: #777,
+                    ),
+                ),
+            ),
+            bottom: (
+                padding: 1.8rem 0,
+            ),
+            copyright: (
+                letter-spacing: -0.015em,
+            ),
+        ),
+        product: (
+            body: (
+                padding-top: 1.2rem,
+                padding-bottom: 1.2rem,
+            ),
+            price: (
+                color: #369
+            )
+        )
+        )
+        );</pre>
+                            </script>
+
+                            <script type="text/html" id="template-com-accordion">
+                                <h5>Accordion</h5>
+                                <p>Use the code below to display an <a href="element-accordions.html" >accordion</a>.</p>
+                                <pre>
+&lt;div class="accordion accordion-simple"&gt;
+    &lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;
+            &lt;a href="#collapse1-1" class="collapse"&gt;First Header&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id="collapse1-1" class="expanded"&gt;
+            &lt;div class="card-body"&gt;
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.&lt;br&gt;
+                Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse&lt;br&gt; 
+                urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget&lt;br&gt; 
+                felis facilisis fermentum.
+            &lt;/div&gt;
+        &lt;/div&gt;  
+    &lt;/div&gt;
+    &lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;
+            &lt;a href="#collapse1-2" class="expand"&gt;Second Header&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id="collapse1-2" class="collapsed"&gt;
+            &lt;div class="card-body"&gt;
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.&lt;br&gt;
+                Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse&lt;br&gt; 
+                urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget&lt;br&gt; 
+                felis facilisis fermentum.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;
+            &lt;a href="#collapse1-3" class="expand"&gt;Third Header&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id="collapse1-3" class="collapsed"&gt;
+            &lt;div class="card-body"&gt;
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.&lt;br&gt;
+                Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse&lt;br&gt; 
+                urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget&lt;br&gt; 
+                felis facilisis fermentum.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;    
+&lt;/div&gt;</pre>
+                                <h6>Useful classes</h6>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Class</th><th>Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>accordion-simple</code></td><td>Simple style.</td></tr>
+                                        <tr><td><code>accordion-boxed</code></td><td>Boxed style.</td></tr>
+                                        <tr><td><code>accordion-border</code></td><td>Bordered style.</td></tr>
+                                        <tr><td><code>accordion-background</code></td><td>Background style.</td></tr>
+                                        <tr><td><code>accordion-dropshadow</code></td><td>Drop shadow.</td></tr>
+                                        <tr><td><code>accordion-icon</code></td><td>Icon style.</td></tr>
+                                        <tr><td><code>accordion-card-bg</code></td><td>Card background style.</td></tr>
+                                        <tr><td><code>accordion-color</code></td><td>Set active color when Card is expanded.</td></tr>
+                                        <tr><td><code>accordion-card-border</code></td><td>Bordered card style.</td></tr>
+                                        <tr><td><code>accordion-gutter-md</code></td><td>Medium gutter between cards.</td></tr>
+                                        <tr><td><code>accordion-gutter-sm</code></td><td>Small gutter between cards.</td></tr>
+                                        <tr><td><code>accordion-plus</code></td><td>Use plus and minus as toggle icon.</td></tr>                                    
+                                    </tbody>
+                                </table>
+                            </script>
+
+                            <script type="text/html" id="template-com-alert">
+                                <h5>Alert</h5>
+
+                                <p>Use the code below to display an alert.</p>
+                                <pre>
+&lt;div class="alert alert-primary alert-simple"&gt;
+    &lt;strong&gt;News :&lt;/strong&gt;
+    You have done 5 actions.
+    &lt;button type="button" class="btn btn-link btn-close"&gt;
+        &lt;i class="d-icon-times"&gt;&lt;/i&gt;
+    &lt;/button&gt;
+&lt;/div></pre>
+                                <h6>Useful classes</h6>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Class</th><th>Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>alert-primary</code></td><td>Primary skin</td></tr>
+                                        <tr><td><code>alert-success</code></td><td>Success skin</td></tr>
+                                        <tr><td><code>alert-warning</code></td><td>Warning skin</td></tr>
+                                        <tr><td><code>alert-danger</code></td><td>Danger skin</td></tr>
+                                        <tr><td><code>alert-black</code></td><td>Black skin</td></tr>
+                                        <tr><td><code>alert-dark</code></td><td>Dark skin</td></tr>
+                                        <tr><td><code>alert-light</code></td><td>Light skin</td></tr>
+                                        <tr><td><code>alert-round</code></td><td>Round style</td></tr>
+                                        <tr><td><code>alert-simple</code></td><td>Simple style</td></tr>
+                                        <tr><td><code>alert-icon</code></td><td>Icon style</td></tr>
+                                        <tr><td><code>alert-message</code></td><td>Message style</td></tr>
+                                        <tr><td><code>alert-btn</code></td><td>Buttons' style</td></tr>
+                                        <tr><td><code>alert-summary</code></td><td>Summary style</td></tr>
+                                    </tbody>
+                                </table>
+                            </script>
+                            <script type="text/html" id="template-com-blog">
+                                <h5>Blog</h5>
+
+                                <p>Riode provides a very elegant way to showcase your blog. The usage is very simple.</p>
+                                <ul>
+                                    <li><a href="blog-classic.html" >Classic type</a></li>
+                                    <li><a href="blog-mask-grid.html" >Mask type</a></li>
+                                    <li><a href="blog-listing.html" >List type</a></li>
+                                    <li><a href="blog-grid-3col.html" >Grid Layout</a></li>
+                                    <li><a href="blog-mask-masonry.html" >Masonry Layout</a></li>
+                                    <li><a href="post-single.html" >Single Post</a></li>
+                                    <li>Blog can be shown as a slider like <a href="demo1.html" >demo1</a>.</li>
+                                </ul>
+
+                                <p>Use the code below to display a blog.</p>
+                                <pre>
+&lt;article class="post text-center mb-5"&gt;
+    &lt;figure class="post-media"&gt;
+        &lt;a href="post-single.html"&gt;
+            &lt;img src="images/blog/3col/1.jpg" width="380" height="250" alt="post"/&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;div class="post-details"&gt;
+        &lt;div class="post-meta"&gt;
+            &lt;a href="#" class="post-author"&gt;by John Doe&lt;/a&gt;
+                | 
+                &lt;a href="#" class="post-date"&gt;Nov 22, 2019&lt;/a&gt;
+                | 
+                &lt;a href="#" class="post-comment"&gt;2 Comments&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h4 class="post-title"&gt;&lt;a href="post-single.html"&gt;Cras ornare tristique elit&lt;/a&gt;&lt;/h4&gt;
+        &lt;div class="post-cats"&gt;
+            in &lt;a href="#"&gt;Lifestyle&lt;/a&gt;, &lt;a href="#"&gt;Shopping&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;p class="post-content"&gt;Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.&lt;/p&gt;
+        &lt;a href="post-single.html" class="btn btn-link btn-underline btn-primary btn-reveal-right"&gt;Continue Reading&lt;i class="d-icon-arrow-right"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-button">
+                                <h5>Button</h5>
+
+                                <p>
+                                    To make <a href="element-buttons.html" >buttons</a>, please use this:<br>
+                                    <code>&lt;a href="#" class="btn"&gt;Button&lt;/a&gt;</code><br>
+                                    <code>&lt;button class="btn"&gt;Button&lt;/button&gt;</code>
+                                </p>
+
+                                <h6>Button Type</h6>
+                                <ul>
+                                    <li><code>btn-underline</code> - Underline button type.</li>
+                                    <li><code>btn-link</code> - Link button type.</li>
+                                    <li><code>btn-solid</code> - Solid button type.</li>
+                                    <li><code>btn-outline</code> - Outline button type.</li>
+                                    <li><code>btn-gradient</code> - Gradient button type.</li>
+                                </ul>
+                                <h6>Button Shapes and Shadow</h6>
+                                <ul>
+                                    <li><code>btn</code> - default: rectangle button.</li>
+                                    <li><code>btn-rounded</code> - Rounded button.</li>
+                                    <li><code>btn-ellipse</code> - Ellipse button.</li>
+                                    <li><code>btn-disabled</code> - Disabled button.</li>
+                                    <li><code>btn-dark</code> - Dark color skin button.</li>
+                                    <li><code>btn-white</code> - White color skin button.</li>                  
+                                    <li><code>btn-shadow-sm</code>, <code>btn-shadow-md</code>, <code>btn-shadow-lg</code> for shadowed buttons.</li>                      
+                                </ul>
+                                <h6>Button Color Skin</h6>
+                                <ul>
+                                    <li><code>btn-primary</code> - Primary color skin button.</li>
+                                    <li><code>btn-secondary</code> - Secondary color skin button.</li>
+                                    <li><code>btn-alert</code> - Alert color skin button.</li>
+                                    <li><code>btn-success</code> - Success color skin button.</li>
+                                    <li><code>btn-dark</code> - Dark color skin button.</li>
+                                    <li><code>btn-white</code> - White color skin button.</li>                                        
+                                </ul>
+                                <h6>Button Size</h6>
+                                <ul>
+                                    <li><code>btn-lg</code>, <code>btn-md</code>, <code>btn-sm</code> for any button and <code>btn-block</code> for full width.</li>
+                                </ul>
+                                <h6>Button With Icon & Animation</h6>
+                                <ul>
+                                    <li><code>btn-icon-left</code>, <code>btn-icon-right</code> - Icon Button</li>
+                                    <li><code>btn-reveal-left</code>, <code>btn-reveal-right</code> -  Reveal Button</li>
+                                    <li><code>btn-slide-left</code>, <code>btn-slide-right</code>, <code>btn-slide-up</code>, <code>btn-slide-down</code> - Slide Button</li>
+                                    <li><code>btn-infinite</code> - Button Animation Count</li>
+                                </ul>
+                                <h6>Button on a Parallax</h6>
+                                <p>Just use button classes on a parallax.</p>
+                            </script>
+                            <script type="text/html" id="template-com-category">
+                                <h5>Category</h5>
+                                <p>
+                                    Riode provides several attractive types to showcase <a href="element-categories.html" >product categories</a>.
+                                </p>
+                                <ul class="list list-type-number mb-4 ml-8">
+                                    <li>Default</li>
+                                    <li>Carousel</li>
+                                    <li>Icon Category</li>
+                                    <li>Ellipse Style</li>
+                                    <li>Semi Circle Style</li>
+                                    <li>Classic</li>
+                                    <li>Icon-Over</li>
+                                    <li>Center</li>
+                                    <li>Category Group 1</li>
+                                    <li>Category Group 2</li>
+                                    <li>Banner Style</li>
+                                    <li>Badge Categories</li>
+                                </ul>
+                                <p>
+                                    Use the code below to display simple product category.
+                                </p>
+                                
+                                <pre>
+&lt;div class="category category-default category-absolute"&gt;
+    &lt;a href="#"&gt;
+        &lt;figure class="category-media"&gt;
+            &lt;img src="images/categories/category1.jpg" alt="category" width="280" height="280"/&gt;
+        &lt;/figure&gt;
+    &lt;/a&gt;
+    &lt;div class="category-content"&gt;
+        &lt;h4 class="category-name"&gt;&lt;a href="#"&gt;Skinny Jeans&lt;/a&gt;&lt;/h4&gt;
+        &lt;span class="category-count"&gt;
+            &lt;span&gt;35&lt;/span&gt; Products
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-icon-box">
+                                <h6>Icon Box</h6>
+                                <p>
+                                    With Riode, important information or notification can be shown with <a href="element-icon-boxes.html" >icon box</a> easily.<br>
+                                    Use the code below to display a simple icon box.
+                                </p>
+                                <pre>
+&lt;div class="icon-box icon-box-side"&gt;
+    &lt;span class="icon-box-icon"&gt;
+        &lt;i class="fas fa-check"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    &lt;div class="icon-box-content"&gt;
+        &lt;h4 class="icon-box-title"&gt;Genus Quaimus Restinc&lt;/h4&gt;
+        &lt;p&gt;Sed posuere consectetur est lobortis.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-icon">
+                                <h5>Icon</h5>
+                                <p>Riode comes with Riode Icons and Font Awesome 5 Icons that can be used in your website. Please refer to <a href="element-icons.html" >icons</a> in the elements for more explanation.</p>
+                            </script>
+                            <script type="text/html" id="template-com-instagram">
+                                <h5>Instagram</h5>
+                                <p>
+                                    With Riode, <a href="element-instagrams.html" >instagram</a> images can be easily shown.<br>
+                                    Use the code below to display an instagram.
+                                </p>
+                                <pre>
+&lt;figure class="instagram instagram-info"&gt;
+    &lt;a href="#"&gt;
+        &lt;img src="images/instagram/8.jpg" alt="Instagram" width="220" height="220"&gt;
+    &lt;/a&gt;
+    &lt;div class="instagram-content"&gt;
+        &lt;a href="#"&gt;&lt;i class="d-icon-heart"&gt;&lt;/i&gt;6&lt;/a&gt;&lt;a href="#"&gt;&lt;i class="d-icon-comments"&gt;&lt;/i&gt;11&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-member">
+                                <h5>Member</h5>
+                                <p>With Riode, <a href="about-us.html" >member</a> can be easily shown.</p>
+                                <pre>
+&lt;div class="member"&gt;
+    &lt;figure&gt;
+        &lt;img src="images/subpages/team1.jpg" alt="team member" width="280" height="280"&gt;
+        &lt;div class="overlay social-links"&gt;
+            &lt;a href="#" class="social-link social-facebook fab fa-facebook-f"&gt;&lt;/a&gt;
+            &lt;a href="#" class="social-link social-twitter fab fa-twitter"&gt;&lt;/a&gt;
+            &lt;a href="#" class="social-link social-linkedin fab fa-linkedin-in"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/figure&gt;
+    &lt;h4 class="member-name"&gt;David Smith&lt;/h4&gt;
+    &lt;h5 class="member-job"&gt;Ceo / Founder&lt;/h5&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-minipopup">
+                                <h5>Minipopup</h5>
+                                <p>Riode provides a powerful notification of shopping.<br>For example, "product added to cart" minipopup notification is shown when you add a product to cart. And it shows virtual notifications about someone purchased products.</p>
+                                <h6>Initialize in Javascript</h6>
+                                <pre>
+// Initialize minipopup
+Riode.Minipopup.init(); // requires only one call at first.
+// Open a minipopup
+Riode.minipopup.open( options, callback );</pre>
+                                <h6>Options</h6>
+                                <p>Template can be changed by <code>template</code> parameter.</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Option</th><th style="width:60%">Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>message</code></td><td>Message to display.</td></tr>
+                                        <tr><td><code>productClass</code></td><td>Custom class for product. For example, <code>product-cart</code> class for "added to cart" and <code>product-list-sm</code> class for "Someone purchased" could be used.</td></tr>
+                                        <tr><td><code>imageSrc</code></td><td>Url for Product image source</td></tr>
+                                        <tr><td><code>imageLink</code></td><td>Url Link for product</td></tr>
+                                        <tr><td><code>name</code></td><td>Product name</td></tr>
+                                        <tr><td><code>nameLink</code></td><td>Url Link for Product name</td></tr>
+                                        <tr><td><code>price</code></td><td>Product price</td></tr>
+                                        <tr><td><code>count</code></td><td>Product count</td></tr>
+                                        <tr><td><code>rating</code></td><td>Product rating number ( 0 ~ 5 )</td></tr>
+                                        <tr><td><code>delay</code></td><td>Delay time in milliseconds, default is 4000.</td></tr>
+                                    </tbody>
+                                </table>
+                                <h6>Example: "Product added to cart"</h6>
+                                <p>
+                                    When the user adds product to cart, "cart added" notification will be shown as a minipopup box.<br>
+                                    Use below javascript code to display a minipopup box.
+                                </p>
+                                <pre>
+Riode.minipopup.open({
+    message: 'Message &lt;a href="#" class="btn btn-link btn-sm btn-slide-right btn-infinite"&gt;View Cart&lt;i class="d-icon-arrow-right"&gt;&lt;/i&gt;&lt;/a&gt;',
+    productClass: 'product-cart',
+    name: 'Product Name',
+    nameLink: 'Product Link',
+    imageSrc: 'Product Image Source',
+    price: 'Product Price',
+    count: Count
+});</pre>
+                                <h6>Example: "Someone just purchased"</h6>
+                                <p>When the other user purchases a product, "purchased" notification can be shown. The boxes are stacked.</p>
+                                <pre>
+Riode.minipopup.open({
+    message: 'Someone just purchased below.',
+    productClass: 'product-list-sm',
+    name: 'Product Name',
+    nameLink: 'Product Link',
+    imageSrc: 'Product Image Source',
+    price: 'Product Price',
+    rating: 4
+}, function( $box ) {
+    // When the box opens, initialize its rating's tooltip.
+    Riode.product.initRatingTooltip( $box.find('.ratings-full') );
+});</pre>
+                            </script>
+                            <script type="text/html" id="template-com-popup">
+                                <h5>Popup</h5>
+                                <p>To display a popup dialog box, the following function can be used.<br><code>Riode.popup( option, presetName );</code></p>
+                                <ul>
+                                    <li><code>option</code> - Magnific popup options.</li>
+                                    <li><code>preset</code> - Name for preset options</li>
+                                </ul>
+                                <p>It depends on <a href="documentation.html">jquery.magnific-popup</a> plugin.</p>
+                                <h6>Example: login dialog box</h6>
+                                <pre>
+_d.popup({
+    type: 'ajax', // this is unnecessary because it is included in preset options for login.
+    mainClass: 'mfp-login mfp-zoom-popup',
+    items: {
+        src: 'link to login page'
+    }
+}, 'login');</pre>
+                                <p>For <b>zoom</b> and <b>flip</b> effect, Riode provides <code>mfp-zoom-popup</code> and <code>mfp-flip-popup</code> class.</p>
+                            </script>
+
+                            <script type="text/html" id="template-com-product">
+                                <h6>Product</h6>
+                                <p>Riode provides several attractive types to showcase products. Please check products styles in <a href="element-products.html" >element-products page</a>.</p>
+                                <ul class="list list-type-number mb-4 ml-8">
+                                    <li>Default</li>
+                                    <li>Centered</li>
+                                    <li>Classic</li>
+                                    <li>Pop-up</li>
+                                    <li>Split Line 5 Columns</li>
+                                    <li>Without Space</li>
+                                    <li>Image Gap Style</li>
+                                    <li>Modern style 1</li>
+                                    <li>Modern style 2</li>
+                                    <li>Products List</li>
+                                </ul>
+                                <p>Use the code below to display default product.</p>
+                                    
+                                <pre>
+&lt;div class="product shadow-media"&gt;
+    &lt;figure class="product-media"&gt;
+        &lt;a href="product.html"&gt;
+            &lt;img src="images/products/product1.jpg" alt="product" width="280" height="315"&gt;
+        &lt;/a&gt;
+        &lt;div class="product-action-vertical"&gt;
+            &lt;a href="#" class="btn-product-icon btn-cart"
+            data-toggle="modal" data-target="#addCartModal" title="Add to cart"&gt;
+                &lt;i class="d-icon-bag"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="product-action"&gt; 
+            &lt;a href="#" class="btn-product btn-quickview" title="Quick View"&gt;Quick View&lt;/a&gt; 
+        &lt;/div&gt;
+    &lt;/figure&gt;
+    &lt;div class="product-details"&gt;
+        &lt;a href="#" class="btn-wishlist" title="Add to wishlist"&gt;&lt;i class="d-icon-heart"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;div class="product-cat"&gt;
+            &lt;a href="shop-grid-3col.html"&gt;categories&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h3 class="product-name"&gt;
+            &lt;a href="product.html"&gt;Osaka Entry Tee Superdry&lt;/a&gt;
+        &lt;/h3&gt;
+        &lt;div class="product-price"&gt;
+            &lt;span class="price"&gt;$35.00&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="ratings-container"&gt;
+            &lt;div class="ratings-full"&gt;
+                &lt;span class="ratings" style="width:100%"&gt;&lt;/span&gt;
+                &lt;span class="tooltiptext tooltip-top"&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;a href="#" class="rating-reviews"&gt;( 6 reviews )&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-sidebar">
+                                <h5>Sidebar</h5>
+                                <p>Riode supports a very simple way to implement a sidebar, and the left and right sidebar is already defined. A new sidebar can be defined.</p>
+                                <h6>Classes for left and right sidebar</h6>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>HTML element</th><th>Left sidebar</th><th>Right sidebar</th><th>New sidebar (custom)</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>aside</code> tag</td><td><code>sidebar</code></td><td><code>right-sidebar</code></td><td><code>new-sidebar</code></td></tr>
+                                        <tr><td><code>body</code> tag if active</td><td><code>sidebar-active</code></td><td><code>right-sidebar-active</code></td><td><code>new-sidebar-active</code></td></tr>
+                                        <tr><td>Toggle button</td><td><code>left-sidebar-toggle</code></td><td><code>right-sidebar-toggle</code></td><td><code>new-sidebar-toggle</code></td></tr>
+                                    </tbody>
+                                </table>
+                                <p>
+                                    If you want to add a sidebar named "new", please add <code>new-sidebar</code> class to <code>aside</code> tag.<br>
+                                    This sidebar opens when <code>new-sidebar-active</code> class is added to <code>body</code> tag.<br>
+                                    <code>new-sidebar-toggle</code> class will be used to toggle buttons for this sidebar.
+                                </p>
+
+                                <h6>Sticky sidebar</h6>
+                                <p class="mb-0">If you want to make sidebar sticky:</p>
+                                <ul class="mt-0">
+                                    <li>Please include <code>vendor/sticky.js</code>.</li>
+                                    <li>Please add <code>sticky-sidebar-wrapper</code> class to sticky area.</li>
+                                    <li>Please add <code>sticky-sidebar</code> class to sidebar content's inner element.</li>
+                                </ul>
+
+                                <pre>
+&lt;aside class="sticky-sidebar-wrapper ..."&gt;
+    ...
+    &lt;div class="sidebar-content"&gt;
+        &lt;div class="sticky-sidebar" data-sticky-options="{'top': 10}"&gt; // Sticky sidebar's offset top limit is 10px.
+            &lt;div class="widget"&gt;
+                ...
+            &lt;/div&gt;
+            ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/aside&gt;
+...
+&lt;script src="vendor/sticky/sticky.min.js"&gt;&lt;/script&gt;</pre>
+
+                                <h6>Functional sidebars</h6>
+                                <ul>
+                                    <li><a href="shop.html" >Remain toggle sidebar</a></li>
+                                    <li><a href="shop-navigation-filter.html" >Navigation style sidebar</a></li>
+                                    <li><a href="shop-horizontal-filter.html" >Menu style sidebar</a></li>
+                                    <li><a href="shop-grid-6cols.html" >Absolute sidebar</a></li>
+                                    <li><a href="demo6.html" >Right sidebar shop demo</a></li>
+                                    <li><a href="product-left-sidebar.html" >Product sidebar</a></li>
+                                    <li><a href="blog-classic.html" >Blog sidebar</a></li>
+                                </ul>
+                            </script>
+                            <script type="text/html" id="template-com-slider">
+                                <h5>Slider</h5>
+                                <p>Riode provides a powerful slider component, using <a href="https://github.com/OwlCarousel2/OwlCarousel2" >Owl Carousel</a>, the famous touch enabled, fast &amp; responsive jQuery plugin. Before using it, we recommend to read <a href="#template-com-grid" class="document-link">grid spacing</a>, in order to perform <b>first paint</b> faster, we display a non-interactive carousel with css first. It becomes inactive after the javascript is executed.</p> <p>It depends on <a href="documentation.html">owl-carousel</a> plugin.</p>
+                                <h6>Example: Products slider in 4 columns</h6>
+                                <p>Custom owl carousel options could be given in <code>data-owl-options</code> attribute in html  .</p>
+                                <pre>
+&lt;div class="owl-carousel owl-theme row cols-2 cols-md-3 cols-lg-4" data-owl-options="{
+    'items': 2,
+    'nav': false,
+    'loop': false,     //  Here, we display carousel with <code>row</code><code>cols-2</code><code>cols-md-3</code>
+    'dots': true,      // <code>cols-lg-4</code> classes at first, these classes will be
+    'margin': 20,      //  removed when carousel is initialized by javascript.
+    'responsive': {
+        '768': {
+            'items': 3
+        },
+        '992': {
+            'items': 4,
+            'dots': false,
+            'nav': true
+        }
+    }
+}"&gt;
+    &lt;div class="product shadow-media"&gt; ... &lt;/div&gt;
+    &lt;div class="product shadow-media"&gt; ... &lt;/div&gt;
+    &lt;div class="product shadow-media"&gt; ... &lt;/div&gt;
+    &lt;div class="product shadow-media"&gt; ... &lt;/div&gt;
+&lt;/div&gt;</pre>
+                                <h6>Slider's animations</h6>
+                                <p>To apply animtions to slide banners' elements, you can add:</p>
+                                <ul>
+                                    <li><code>slide-animate</code> class to the elements.</li>
+                                    <li><code>animation-slider</code> class to owl carousel div.</li>
+                                </ul>
+                                <p>If you want to know about animations, please read <a href="#template-com-animation" class="document-link">animations section</a>.</p>
+                            
+                                <h6>Helper classes</h6>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Class</th><th>Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>owl-nav-full</code></td><td>Make nav full.</td></tr>
+                                        <tr><td><code>owl-nav-bg</code></td><td>Make nav big.</td></tr>
+                                        <tr><td><code>owl-nav-fade</code></td><td>Make nav invisible when mouse leaves.</td></tr>
+                                        <tr><td><code>owl-nav-inner</code><code>owl-nav-top</code><code>owl-nav-bottom</code></td><td>Place nav inner, top, bottom.</td></tr>
+                                        <tr><td><code>owl-dot-white</code><code>owl-dot-grey</code></td><td>Make dots white or grey.</td></tr>
+                                        <tr><td><code>owl-dot-inner</code></td><td>Place dots inner.</td></tr>
+                                        <tr><td><code>owl-split</code></td><td>Show a split line between items.</td></tr>
+                                        <tr><td><code>owl-middle</code></td><td>Aligns slider's items vertically in the middle.</td></tr>
+                                        <tr><td><code>owl-full-height</code></td><td>Make slider's height full.</td></tr>
+                                        <tr><td><code>owl-same-height</code></td><td>Make slider items' height same.</td></tr>
+                                        <tr><td><code>owl-shadow-carousel</code></td><td>Allow slider to show items' shadow.</td></tr>
+                                    </tbody>
+                                </table>
+                            </script>
+                            <script type="text/html" id="template-com-store">
+                                <h5>Store</h5>
+                                <p>With Riode, <a href="contact-us.html" >store</a> can be easily shown.</p>
+                                <pre>
+&lt;div class="store"&gt;
+    &lt;figure&gt;
+        &lt;img src="images/subpages/store-1.jpg" alt="store" width="280" height="280"&gt;
+        &lt;h4 class="overlay-visible"&gt;New York&lt;/h4&gt;
+        &lt;div class="overlay overlay-transparent"&gt;
+            &lt;a class="mt-8" href="mail:#"&gt;mail@newyorkriodestore.com&lt;/a&gt;
+            &lt;a href="tel:#"&gt;Phone: (123) 456-7890&lt;/a&gt;
+            &lt;div class="social-links mt-1"&gt;
+                &lt;a href="#" class="social-link social-facebook fab fa-facebook-f"&gt;&lt;/a&gt;
+                &lt;a href="#" class="social-link social-twitter fab fa-twitter"&gt;&lt;/a&gt;
+                &lt;a href="#" class="social-link social-linkedin fab fa-linkedin-in"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-testimonial">
+                                <h5>Testimonal</h5>
+                                <p>Riode provides various types of testimonials. please check this <a href="element-testimonials.html" >testimonial element page</a>.</p>
+                                <p>Use the code below to display a simple testimonial.</p>
+                                <pre>
+&lt;div class="testimonial"&gt;
+    &lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ante eget nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.&lt;/blockquote&gt;
+    &lt;div class="testimonial-info"&gt;
+        &lt;figure class="testimonial-author-thumbnail"&gt;
+            &lt;img src="images/agents/1.jpg" alt="user" width="50" height="50"&gt;
+        &lt;/figure&gt;
+        &lt;cite&gt;
+            Herman Beck
+            &lt;span&gt;Investor&lt;/span&gt;
+        &lt;/cite&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-tab">
+                                <h5>Tab</h5>
+                                <p>
+                                    Riode provides various types of <a href="element-tabs.html" >tabs</a>.<br>
+                                    Use the code below to display a simple tab.
+                                </p>
+                                <pre>
+&lt;div class="tab tab-nav-simple"&gt;
+    &lt;ul class="nav nav-tabs" role="tablist"&gt;
+        &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link active" href="#tab1-1"&gt;First Header&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" href="#tab1-2"&gt;Second Header&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link" href="#tab1-3"&gt;Third Header&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content"&gt;
+        &lt;div class="tab-pane active" id="tab1-1"&gt;
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.  Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+        &lt;/div&gt;
+        &lt;div class="tab-pane" id="tab1-2"&gt;
+            Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
+        &lt;/div&gt;
+        &lt;div class="tab-pane" id="tab1-3"&gt;
+            Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-title">
+                                <h5>Titles</h5>
+                                <p>Riode provides various styles of <a href="element-titles.html" >titles</a>.</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Style</th><th>Preview</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Default</td><td><h4 class="title ml-3 mr-3 mt-3 mb-3">Heading</h4></td></tr>
+                                        <tr><td>Simple</td><td><h4 class="title title-simple ml-3 mr-3 mt-3 mb-3">Heading</h4></td></tr>
+                                        <tr><td>Left With Cross</td><td><h4 class="title title-line ml-3 mr-3 mt-3 mb-3">Heading</h4></td></tr>
+                                        <tr><td>Center With Cross</td><td><h4 class="title title-line title-right-line ml-3 mr-3 mt-3 mb-3">Heading</h4></td></tr>
+                                        <tr><td>Right With Cross</td><td><h4 class="title title-right-line ml-3 mr-3 mt-3 mb-3">Heading</h4></td></tr>
+                                        <tr><td>Custom Cross</td><td><h4 class="title-custom-cross title-center title title-line title-right-line ml-3 mr-3 mt-3 mb-3" style="font-size: 2.4rem;">Heading</h4></td></tr>
+                                        <tr><td>Simple Underline</td><td><h4 class="title title-line title-underline title-underline-simple ml-3 mr-3 mt-3 mb-3"><span>Heading</span></h4></td></tr>
+                                        <tr><td>Active Underline</td><td><h4 class="title title-line title-underline ml-3 mr-3 mt-3 mb-3"><span>Heading</span></h4></td></tr>
+                                        <tr><td>Custom Underline</td><td><h4 class="title title-custom-underline title-center ml-3 mr-3 mt-3 mb-3"><span>Heading</span></h4></td></tr>
+                                        <tr><td>Title With Icon</td><td><h4 class="title title-icon text-center ml-3 mr-3 mt-3 mb-3"><span>Heading</span><i class="fa fa-arrow-down"></i></h4></tr>
+                                    </tbody>
+                                </table>
+                            </script>
+                            <script type="text/html" id="template-com-grid">
+                                <h5>Grid</h5>
+                                <p class="mb-0">
+                                    Riode provides the most advanced way to implement responsive grid layouts.<br>
+                                    All grid items are wrapped with <code>row</code> class. If you want to know more about breakpoints, please go to <a href="#template-css-configuration" class="document-link">configuration</a> section.</p>
+                                </p>
+                                <ul>
+                                    <li><code>breakpoint</code> can be <code>sm</code>, <code>md</code>, <code>lg</code>.</li>
+                                    <li><code>size</code> can be 1 ~ 8 for cols, and 1 ~ 12 for col.</li>
+                                </ul>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Classes</th><th>Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><code>gutter-lg</code><code>gutter-md</code><code>gutter-sm</code><code>gutter-xs</code><code>gutter-no</code></td><td>Gutter size between items.</td></tr>
+                                        <tr><td><code>col-[breakpoint]-[1 ~ 8]</code></td><td>Self column's responsive size.</td></tr>
+                                        <tr><td><code>cols-[breakpoint]-[1 ~ 12]</code></td><td>Children's columns' responsive size.</td></tr>
+                                        <tr><td><code>col-xl-5col</code><code>col-xl-5col2</code><code>col-xl-5col4</code></td><td>Column Size 1/5, 2/5, 4/5</td></tr>
+                                        <tr><td><code>order-first</code><code>order-last</code><br>
+                                            <code>order-sm-auto</code><code>order-sm-first</code><code>order-sm-last</code><br>
+                                            <code>order-md-auto</code><code>order-md-first</code><code>order-md-last</code><br>
+                                            <code>order-lg-auto</code><code>order-lg-first</code><code>order-lg-last</code><br>
+                                        </td><td>Order classes</td></tr>
+                                    </tbody>
+                                </table>
+                                <p>The following code means children are shown as 4 columns above 768px(as default), as 3 columns above 576px, and show as 2 columns below than 575px with large gutter size (default is 30px).</p>
+                                <pre>
+&lt;div class="row cols-2 cols-sm-3 cols-md-4 gutter-lg"&gt;
+    &lt;div&gt; ... &lt;/div&gt;
+    &lt;div&gt; ... &lt;/div&gt;
+    &lt;div&gt; ... &lt;/div&gt;
+    &lt;div&gt; ... &lt;/div&gt;
+    &lt;div&gt; ... &lt;/div&gt;
+    ...
+&lt;/div&gt;</pre>
+                                <p>Bootstrap-like layouts will be able to be shown by using col- classes.</p>
+<pre>
+&lt;div class="row gutter-lg"&gt;
+    &lt;div class="col-6 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+    &lt;div class="col-6 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+    &lt;div class="col-6 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+    &lt;div class="col-6 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+    &lt;div class="col-6 col-sm-4 col-md-3"&gt; ... &lt;/div&gt;
+    ...
+&lt;/div&gt;</pre>
+                                <h6>Masonry Layout</h6>
+                                <p class="mb-0">If you need a masonry layout, please add:</p>
+                                <ul class="mt-0">
+                                    <li><code>grid</code> class to wrapper.</li>
+                                    <li><code>grid-item</code> class to items.</li>
+                                    <li><code>grid-space</code> class for a grid space unit.</li>
+                                </ul>
+                                <p>It depends on <a href="documentation.html">isotope</a> plugin.</p>
+                                <pre>
+&lt;div class="grid row"&gt;
+    &lt;div class="grid-item"&gt;...&lt;/div&gt;
+    &lt;div class="grid-item"&gt;...&lt;/div&gt;
+    &lt;div class="grid-item"&gt;...&lt;/div&gt;
+    ...
+    &lt;div class="grid-space col-1"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+                            </script>
+                            <script type="text/html" id="template-com-hotspot">
+                                <h5>Hotspot</h5>
+                                <p class="mb-0">
+                                    Riode provides a very beautiful way of showing information on an image.<br>
+                                    Use the code below to display a hotsot.
+                                </p>
+                                <pre>&lt;div class="hotspot-section banner banner-hotspot appear-animate"&gt;
+    &lt;figure&gt;
+        &lt;img src="images/elements/hotspot/hotspot-bg.png" alt="hotspot" width="1180" height="600" style="background-color: #b8b8b5"&gt;
+    &lt;/figure&gt;
+    &lt;div class="hotspot-container"&gt;
+        &lt;div class="hotspot hotspot-type1 hotspotspread hotspot-bottom text-center" style="top: 11%;left: 41%;"&gt;
+            &lt;a href="#" title="hotspot"&gt;&lt;/a&gt;
+            &lt;div class="tooltip"&gt;
+                &lt;figure class="tooltip-media"&gt;
+                    &lt;img src="images/elements/hotspot/hotspot-2-1-300x338.jpg" alt="hotspot" width="300" height="338"&gt;
+                &lt;/figure&gt;
+                &lt;h2 class="tooltip-name"&gt;&lt;a href="demo-yoga-product.html"&gt;Cavin Klein
+                        Fashion
+                        Sheepskin handbag&lt;/a&gt;&lt;/h2&gt;
+                &lt;h4 class="tooltip-price"&gt;&lt;span class="price"&gt;$21.00&lt;/span&gt;&lt;/h4&gt;
+                &lt;a href="#" class="btn btn-primary btn-radius btn-cart" data-toggle="modal" data-target="#addCartModal" title="Add to cart"&gt;Add to Cart&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                </pre>
+                                <p class="mb-0">There are four hotspot styles.</p>
+                                <ul class="mt-0">
+                                    <li><code>hotspot-type1</code></li>
+                                    <li><code>hotspot-type2</code></li>
+                                    <li><code>hotspot-type3</code></li>
+                                    <li><code>hotspot-type4</code></li>
+                                </ul>
+                            </script>
+                            <script type="text/html" id="template-js-overview">
+                                <h5>Overview</h5>
+                                <p>The table below shows how to initialize Riode and its functions.</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr><th>Funciton</th><th>Description</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td colspan="2" class="bg-primary text-white">Initialize Riode</td></tr>
+                                        <tr><td><code>Riode.prepare()</code></td><td>Initialize while document is being loaded.</td></tr>
+                                        <tr><td><code>Riode.initLayout();</code></td><td>Initialize while document is interactive.</td></tr>
+                                        <tr><td><code>Riode.init();</code></td><td>Initialize after document has been loaded.</td></tr>
+                                        <tr><td colspan="2" class="bg-primary text-white">Call functions for layouts (in <code>initLayout</code> function)</td></tr>
+                                        <tr><td><code>Riode.isotopes('.grid:not(.grid-float)');</code></td><td>Show a masonry grid by using isotopes.</td></tr>
+                                        <tr><td><code>Riode.stickySidebar('.sticky-sidebar');</code></td><td>Initialize a sticky sidebar.</td></tr>
+                                        <tr><td colspan="2" class="bg-primary text-white">Call functions (in <code>init</code> function)</td></tr>
+                                        <tr><td><code>Riode.appearAnimate('.appear-animate');</code></td><td>Runs appear animations</td></tr>
+                                        <tr><td><code>Riode.Minipopup.init();</code></td><td>Initialize the minipopup.</td></tr>
+                                        <tr><td><code>Riode.Shop.init();</code></td><td>Initialize shop functions.</td></tr>
+                                        <tr><td><code>Riode.initProductSinglePage();</code></td><td>Initialize the product single page.</td></tr>
+                                        <tr><td><code>Riode.slider('.owl-carousel');</code></td><td>Initialize sliders.</td></tr>
+                                        <tr><td><code>Riode.headerToggleSearch('.hs-toggle');</code></td><td>Initialize the header toggle search.</td></tr>             
+                                        <tr><td><code>Riode.closeTopNotice('.btn-notice-close');</code></td><td>Initialize a button function to close the top notice.</td></tr>
+                                        <tr><td><code>Riode.stickyContent('.product-sticky-content, .sticky-header'); </code></td><td>Initialize sticky contents. You can use it to make the header, footer, or a toolbox sticky.</td></tr>
+                                        <tr><td><code>Riode.sidebar('sidebar');</code></td><td>Initialize the left sidebar.</td></tr>
+                                        <tr><td><code>Riode.sidebar('right-sidebar');</code></td><td>Initialize the right sidebar.</td></tr>
+                                        <tr><td><code>Riode.sidebar('top-sidebar');</code></td><td>Initialize the top sidebar.</td></tr>
+                                        <tr><td><code>Riode.quantityInput('.quantity');</code></td><td>Initialize quantity inputs.</td></tr>
+                                        <tr><td><code>Riode.playableVideo('.inner-video');</code></td><td>Initialize playable videos.</td></tr>
+                                        <tr><td><code>Riode.initAccordion('.card-header > a');</code></td><td>Initialize accordions.</td></tr>
+                                        <tr><td><code>Riode.initTab('.nav-tabs');</code></td><td>Initialize tabs.</td></tr>
+                                        <tr><td><code>Riode.initAlert('.alert');</code></td><td>Initialize alerts.</td></tr>
+                                        <tr><td><code>Riode.parallax('.parallax');</code></td><td>Initialize a parallax.</td></tr>
+                                        <tr><td><code>Riode.countTo('.count-to');</code></td><td>Initialize the countTo.</td></tr>
+                                        <tr><td><code>Riode.countdown('.product-countdown, .countdown');</code></td><td>Initialize the countdown</td></tr>
+                                        <tr><td><code>Riode.Menu.init();</code></td><td>Initialize the menu.</td></tr>
+                                        <tr><td><code>Riode.initZoom();</code></td><td>Initialize zoom.</td></tr>
+                                        <tr><td><code>Riode.initNavFilter('.nav-filters .nav-filter');</code></td><td>Initialize navigation filters for blog, products.</td></tr>
+                                        <tr><td><code>Riode.initPopups();</code></td><td>Initialize popups: login, register, play video, newsletter popup</td></tr>
+                                        <tr><td><code>Riode.initPurchasedMinipopup();</code></td><td>Initialize the minipopup for the purchased event.</td></tr>
+                                        <tr><td><code>Riode.initScrollTopButton();</code></td><td>Initialize the scroll top button.</td></tr>
+                                        <tr><td><code>Riode.floatSVG('.float-svg');</code></td><td>Initialize a floating svg.</td></tr>
+                                        <tr><td><code>Riode.initShowVendorSearch('.toolbox .form-toggle-btn');</code></td><td>Initialize a show vender search form.</td></tr>
+                                        <tr><td><code>Riode.initFloatingElements( '.floating' );</code></td><td>Initialize widgets that float according to the mouse position.</td></tr>
+                                        <tr><td><code>Riode.initAdvancedMotions('.skrollr');</code></td><td>Initialize widgets that move according to the scroll movement.</td></tr>
+                                        <tr><td><code>Riode.degree360('.product-gallery-degree');</code></td><td>Initialize a widget which rotates 360 degrees.</td></tr>
+                                        <tr><td><code>Riode.scrollSet('.scroll-menu a')</code></td><td>Initialize the scroll menu.</td></tr>
+                                        <tr><td><code>Riode.CommentWithMedia.init();</code></td><td>Initialize the comment with media.</td></tr>
+                                    </tbody>
+                                </table>
+                            </script>
+                            <div class="document-content mb-10" id="document-view">
+                                <h5>Welcome to Riode HTML</h5>
+
+                                <p>Thank you for choosing Riode HTML!<br>We are very pleased that you have chosen
+                                    Riode for your website and you will not be disappointed with your choice.</p>
+
+                                <ul class="list list-circle mb-4 ml-0">
+                                    <li><i class="fas fa-shopping-cart"></i>Riode is specifically designed for
+                                        <b>eCommerce</b> sites.
+                                    </li>
+                                    <li><i class="fas fa-rocket"></i>Riode is the most <b>powerful, fastest
+                                            responsive</b> theme with tons of features and trendy designs.</li>
+                                    <li><i class="fas fa-check"></i>Riode is based on <b>HTML5</b> and <b>CSS3</b>, and
+                                        works perfectly fine with <b>all the browsers</b>.</li>
+                                    <li><i class="fas fa-layer-group"></i>Riode includes <b>50 elegant demo pages</b>
+                                        and <b>118 other subpages</b>.</li>
+                                </ul>
+
+                                <p>Please read our documentation before you get started, and if you have any questions,
+                                    please feel free to contact us through the themeforest support page.</p>
+                                <p>Thank you, we hope you enjoy using Riode HTML!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!-- End Main -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="footer-left">
+                        <a href="demo1.html" class="logo-footer">
+                            <img src="images/logo-footer.png" alt="logo-footer" width="163" height="39" />
+                        </a>
+                    </div>
+                    <div class="footer-center">
+                        <p class="copyright">Riode eCommerce &copy; 2022. All Rights Reserved</p>
+                    </div>
+                    <div class="footer-right">
+                        <div class="social-links">
+                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
+                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
+                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterBottom -->
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <!-- Scroll Top -->
+    <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="d-icon-arrow-up"></i></a>
+
+    <!-- sticky icons-->
+    <div class="sticky-icons-wrapper">
+        <div class="sticky-icon-links">
+            <ul>
+                <li><a href="#" class="demo-toggle"><i class="fas fa-home"></i><span>Demos</span></a></li>
+                <li><a href="documentation.html"><i class="fas fa-info-circle"></i><span>Documentation</span></a>
+                </li>
+                <li><a href="https://themeforest.net/downloads/"><i class="fas fa-star"></i><span>Reviews</span></a>
+                </li>
+                <li><a href="https://d-themes.com/buynow/riodehtml"><i class="fas fa-shopping-cart"></i><span>Buy
+                            now!</span></a></li>
+            </ul>
+        </div>
+        <div class="demos-list">
+            <div class="demos-overlay"></div>
+            <a class="demos-close" href="#"><i class="close-icon"></i></a>
+            <div class="demos-content scrollable scrollable-light">
+                <h3 class="demos-title">Demos</h3>
+                <div class="demos">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Plugins JS File -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/sticky/sticky.min.js"></script>
+    <!-- Main JS File -->
+    <script src="js/main.min.js"></script>
+    <script src="js/docs.js"></script>
+</body>
+
+
+<!-- Mirrored from d-themes.com/html/riode/documentation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 11:02:59 GMT -->
+</html>
