@@ -1,0 +1,1242 @@
+
+
+<!doctype html>
+<html>
+
+
+<!-- Mirrored from templates.iqonic.design/prox/html/backend/layout-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Feb 2022 20:16:02 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ProX | Responsive Bootstrap 4 Admin Dashboard Template
+    </title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://templates.iqonic.design/prox/html/assets/images/favicon.ico" />
+    
+    <link rel="stylesheet" href="../assets/css/backend.min.css">
+    <link rel="stylesheet" href="../assets/vendor/%40fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="../assets/vendor/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="../assets/vendor/%40icon/dripicons/dripicons.css">
+    
+    <link rel='stylesheet' href='../assets/vendor/fullcalendar/core/main.css' />
+    <link rel='stylesheet' href='../assets/vendor/fullcalendar/daygrid/main.css' />
+    <link rel='stylesheet' href='../assets/vendor/fullcalendar/timegrid/main.css' />
+    <link rel='stylesheet' href='../assets/vendor/fullcalendar/list/main.css' />
+    <link rel="stylesheet" href="../assets/vendor/mapbox/mapbox-gl.css"></head>
+
+<body class="sidebar-double-icon  ">
+    <!-- loader Start -->
+    <div id="loading">
+            <div id="loading-center">
+            </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <div class="iq-sidebar sidebar-double-icon">
+            <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+                <a href="index.html" class="header-logo mx-auto">
+                    <img src="../assets/images/logo.png" class="img-fluid rounded-normal" alt="logo">
+                </a>
+                <div class="iq-menu-bt-sidebar">                       
+                    <i class="las la-bars wrapper-menu"></i>
+                </div>
+            </div>
+            <div id="sidebar-scrollbar" class="data-scrollbar" data-scroll="1">
+                <div class="d-block user-info mb-3">
+                    <div class="text-center mb-4">
+                        <div class="d-inline-block doc-img user-image mb-3 rounded position-relative">
+                            <img src="../assets/images/user/user-1.jpg" class="img-fluid d-inline-block avatar-110 rounded" alt="logo">
+                        </div>
+                        <h4>Cliff Hanger</h4>
+                        <p>cliff@admin.com</p>
+                    </div>
+                </div>
+                <div class="double-icon-height">
+                    <nav class="iq-sidebar-menu">
+                        <ul id="iq-sidebar-toggle" class="iq-menu">
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <a href="index.html" class="collapsed" data-toggle="collapse" aria-expanded="false"><i class="las la-home iq-arrow-left"></i><span>Dashboard</span></a>
+                                <a href="layout-school.html" class="collapsed active" data-toggle="collapse" aria-expanded="true"><i class="las la-school"></i><span>School</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <a href="layout-hospital.html" class="collapsed" data-toggle="collapse" aria-expanded="false"><i class="las la-hospital"></i><span>Hospital</span></a>
+                                <a href="layout-hotel.html" class="collapsed" data-toggle="collapse" aria-expanded="false"><i class="las la-hotel"></i><span>Hotel</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <a href="layout-payment.html" class="collapsed" data-toggle="collapse" aria-expanded="false"><i class="las la-file-invoice-dollar"></i><span>Payment</span></a>
+                                <a href="layout-restaurant.html" class="collapsed" data-toggle="collapse" aria-expanded="false"><i class="las la-concierge-bell"></i><span>Restaurant</span></a>
+                            </div>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sidebar-bottom-menu">
+                    <nav class="iq-sidebar-menu">
+                        <ul class="iq-menu-bottom list-inline">
+                            <li><a href="https://templates.iqonic.design/prox/html/app/email.html"><i class="las la-envelope-open iq-arrow-left"></i><span>Email </span><span class="float-right badge badge-warning rounded-circle menu-icon-right">18</span></a></li>
+                            <li><a href="https://templates.iqonic.design/prox/html/app/chat.html"><i class="las la-bell iq-arrow-left"></i><span>Chat</span><span class="float-right badge badge-warning rounded-circle menu-icon-right">18</span></a></li>
+                        </ul>
+                        <div class="text-center mt-3">
+                            <a href="auth-sign-in.html" class="btn btn-primary"><i class="las la-sign-out-alt"></i>Logout</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>        <div class="iq-top-navbar">
+            <div class="iq-navbar-custom d-flex align-items-center justify-content-between">
+                <div class="iq-navbar-logo d-flex align-items-center justify-content-between">         
+                    <i class="ri-menu-line wrapper-menu"></i>            
+                    <a href="index.html" class="header-logo">
+                        <img src="../assets/images/logo.png" class="img-fluid rounded-normal" alt="logo">
+                    </a>                              
+                </div>
+                <div class="iq-menu-horizontal">
+                    <nav class="iq-sidebar-menu">
+                        <ul id="iq-sidebar-toggle" class="iq-menu d-flex">
+                                                <li class=" ">
+                                                        <a href="index.html" class="">
+                                                            <i class="las la-home iq-arrow-left"></i><span>Dashboard</span>
+                                                        </a>
+                                                </li>
+                                                <li class=" ">
+                                                        <a href="#layouts" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                            <i class="lab la-jira iq-arrow-left"></i><span>Layouts</span>
+                                                            <i class="ri-arrow-right-s-line iq-arrow-right"></i>
+                                                        </a>
+                                                        <ul id="layouts" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                                <li class=" ">
+                                                                        <a href="layout-1.html">
+                                                                            <i class="las la-hotel"></i><span>Layout 1</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-2.html">
+                                                                            <i class="las la-percent"></i><span>Layout 2</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-3.html">
+                                                                            <i class="las la-dumbbell"></i><span>Layout 3</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-4.html">
+                                                                            <i class="las la-magic"></i><span>Layout 4</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-5.html">
+                                                                            <i class="las la-coins"></i><span>Layout 5</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-6.html">
+                                                                            <i class="las la-utensils"></i><span>Layout 6</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class="active">
+                                                                        <a href="layout-7.html">
+                                                                            <i class="las la-school"></i><span>Layout 7</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-8.html">
+                                                                            <i class="las la-home"></i><span>Layout 8</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-9.html">
+                                                                            <i class="las la-shopping-bag"></i><span>Layout 9</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-10.html">
+                                                                            <i class="lar la-credit-card"></i><span>Layout 10</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-11.html">
+                                                                            <i class="lar la-hospital"></i><span>Layout 11</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-12.html">
+                                                                            <i class="las la-cut"></i><span>Layout 12</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-13.html">
+                                                                            <i class="las la-shopping-cart"></i><span>Layout 13</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-14.html">
+                                                                            <i class="lar la-plus-square"></i><span>Layout 14</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-15.html">
+                                                                            <i class="las la-icons"></i><span>Layout 15</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="layout-16.html">
+                                                                            <i class="las la-icons"></i><span>Layout 16</span>
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                                                <li class=" ">
+                                                        <a href="#ui" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                            <i class="lab la-elementor iq-arrow-left"></i><span>UI Elements</span>
+                                                            <i class="ri-arrow-right-s-line iq-arrow-right"></i>
+                                                        </a>
+                                                        <ul id="ui" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                                <li class=" ">
+                                                                        <a href="ui-avatars.html">
+                                                                            <i class="las la-user-circle"></i><span>Avatars</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-alerts.html">
+                                                                            <i class="las la-tag"></i><span>Alerts</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-badges.html">
+                                                                            <i class="lab la-atlassian"></i><span>Badges</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-breadcrumb.html">
+                                                                            <i class="las la-bars"></i><span>Breadcrumb</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-buttons.html">
+                                                                            <i class="las la-tablet"></i><span>Buttons</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-buttons-group.html">
+                                                                            <i class="las la-eraser"></i><span>Buttons Group</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-boxshadow.html">
+                                                                            <i class="las la-chess-board"></i><span>Box Shadow</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-colors.html">
+                                                                            <i class="las la-palette"></i><span>Colors</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-cards.html">
+                                                                            <i class="las la-credit-card"></i><span>Cards</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-carousel.html">
+                                                                            <i class="las la-film"></i><span>Carousel</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-grid.html">
+                                                                            <i class="las la-border-all"></i><span>Grid</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-helper-classes.html">
+                                                                            <i class="las la-stream"></i><span>Helper classes</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-images.html">
+                                                                            <i class="las la-images"></i><span>Images</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-list-group.html">
+                                                                            <i class="las la-list"></i><span>list Group</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-media-object.html">
+                                                                            <i class="las la-ad"></i><span>Media</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-modal.html">
+                                                                            <i class="las la-columns"></i><span>Modal</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-notifications.html">
+                                                                            <i class="las la-bell"></i><span>Notifications</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-pagination.html">
+                                                                            <i class="las la-ellipsis-h"></i><span>Pagination</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-popovers.html">
+                                                                            <i class="las la-eraser"></i><span>Popovers</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-progressbars.html">
+                                                                            <i class="las la-hdd"></i><span>Progressbars</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-typography.html">
+                                                                            <i class="las la-keyboard"></i><span>Typography</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-tabs.html">
+                                                                            <i class="las la-database"></i><span>Tabs</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-tooltips.html">
+                                                                            <i class="las la-magnet"></i><span>Tooltips</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="ui-embed-video.html">
+                                                                            <i class="las la-video"></i><span>Video</span>
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                                                <li class=" ">
+                                                        <a href="#auth" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                                            <i class="las la-pager iq-arrow-left"></i><span>Authentication</span>
+                                                            <i class="ri-arrow-right-s-line iq-arrow-right"></i>
+                                                        </a>
+                                                        <ul id="auth" class="iq-submenu sub-scrll collapse" data-parent="#iq-sidebar-toggle">
+                                                                <li class=" ">
+                                                                        <a href="auth-sign-in.html">
+                                                                            <i class="las la-sign-in-alt"></i><span>Login</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="auth-sign-up.html">
+                                                                            <i class="las la-sign-out-alt"></i><span>Register</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="auth-recoverpw.html">
+                                                                            <i class="las la-unlock-alt"></i><span>Recover Password</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="auth-confirm-mail.html">
+                                                                            <i class="las la-envelope-open-text"></i><span>Confirm Mail</span>
+                                                                        </a>
+                                                                </li>
+                                                                <li class=" ">
+                                                                        <a href="auth-lock-screen.html">
+                                                                            <i class="las la-lock"></i><span>Lock Screen</span>
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="navbar navbar-expand-lg school-navbar navbar-light p-0">
+                    <div class="change-mode">
+                        <div class="custom-control custom-switch custom-switch-icon custom-control-inline">
+                            <div class="custom-switch-inner">
+                                <p class="mb-0"> </p>
+                                <input type="checkbox" class="custom-control-input" id="dark-mode" data-active="true">
+                                <label class="custom-control-label" for="dark-mode" data-mode="toggle">
+                                    <span class="switch-icon-left"><i class="a-left"></i></span>
+                                    <span class="switch-icon-right"><i class="a-right"></i></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+                        <i class="ri-menu-3-line"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navbar-list align-items-center">                
+                            <li class="nav-item nav-icon search-content">
+                                <a href="#" class="search-toggle dropdown-toggle" id="dropdownSearch" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    <i class="ri-search-line"></i>
+                                </a>
+                                <div class="iq-search-bar iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownSearch">
+                                    <form action="#" class="searchbox p-2">
+                                        <div class="form-group mb-0 position-relative">
+                                            <input type="text" class="text search-input font-size-12" placeholder="type here to search...">
+                                            <a href="#" class="search-link"><i class="ri-search-line"></i></a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>                   
+                            <li class="nav-item nav-icon dropdown">
+                                <a href="#" class="search-toggle dropdown-toggle"  id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="ri-notification-line"></i>
+                                    <span class="bg-primary dots"></span>
+                                </a>
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="card shadow-none m-0">
+                                        <div class="card-body p-0 ">
+                                            <div class="cust-title p-3">
+                                                <h5 class="mb-0">All Notifications</h5>
+                                            </div>
+                                            <div class="p-3">
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center">
+                                                        <div class="">
+                                                            <img class="avatar-40 rounded-small"
+                                                                src="../assets/images/user/01.jpg" alt="">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <h6 class="mb-0">Emma Watson Barry <small
+                                                                    class="badge badge-success float-right">New</small></h6>
+                                                            <p class="mb-0">95 MB</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center">
+                                                        <div class="">
+                                                            <img class="avatar-40 rounded-small"
+                                                                src="../assets/images/user/02.jpg" alt="">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <h6 class="mb-0 ">New customer is join</h6>
+                                                            <p class="mb-0">Cyst Barry</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center">
+                                                        <div class="">
+                                                            <img class="avatar-40 rounded-small"
+                                                                src="../assets/images/user/03.jpg" alt="">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <h6 class="mb-0 ">Two customer is left</h6>
+                                                            <p class="mb-0">Cyst Barry</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center">
+                                                        <div class="">
+                                                            <img class="avatar-40 rounded-small"
+                                                                src="../assets/images/user/04.jpg" alt="">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <h6 class="mb-0 ">New Mail from Fenny <small
+                                                                    class="badge badge-success float-right">New</small></h6>
+                                                            <p class="mb-0">Cyst Barry</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <a class="right-ic btn btn-primary btn-block position-relative p-2" href="#"
+                                                role="button">
+                                                <div class="dd-icon"><i class="las la-arrow-right mr-0"></i></div>
+                                                View All
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item iq-full-screen"><a href="#" class="" id="btnFullscreen"><i
+                                        class="ri-fullscreen-line"></i></a></li>
+                            <li class="caption-content">
+                                <a href="#" class="iq-user-toggle">
+                                    <img src="../assets/images/user/1.jpg" class="img-fluid rounded" alt="user">
+                                </a>
+                                <div class="iq-user-dropdown">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-center mb-0">
+                                            <div class="header-title">
+                                                <h4 class="card-title mb-0">Profile</h4>
+                                            </div>
+                                            <div class="close-data text-right badge badge-primary cursor-pointer"><i
+                                                    class="ri-close-fill"></i></div>
+                                        </div>
+                                        <div class="data-scrollbar" data-scroll="2">
+                                            <div class="card-body">
+                                                <div class="profile-header">
+                                                    <div class="cover-container text-center">
+                                                        <img src="../assets/images/user/1.jpg" alt="profile-bg"
+                                                            class="rounded img-fluid avatar-80">
+                                                        <div class="profile-detail mt-3">
+                                                            <h3>Barry Tech</h3>
+                                                            <p class="mb-1">Web designer</p>
+                                                        </div>
+                                                        <a href="auth-sign-in.html" class="btn btn-primary">Sign Out</a>
+                                                    </div>
+                                                    <div class="profile-details my-4">
+                                                        <a href="https://templates.iqonic.design/prox/html/app/user-profile.html"
+                                                            class="iq-sub-card bg-primary-light rounded-small p-2">
+                                                            <div class="media align-items-center">
+                                                                <div class="rounded iq-card-icon-small">
+                                                                    <i class="ri-file-user-line"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0 ">My Profile</h6>
+                                                                    <p class="mb-0 font-size-12">View personal profile details.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a href="https://templates.iqonic.design/prox/html/app/user-profile-edit.html"
+                                                            class="iq-sub-card bg-danger-light rounded-small p-2">
+                                                            <div class="media align-items-center">
+                                                                <div class="rounded iq-card-icon-small">
+                                                                    <i class="ri-profile-line"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0 ">Edit Profile</h6>
+                                                                    <p class="mb-0 font-size-12">Modify your personal details.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a href="https://templates.iqonic.design/prox/html/app/user-account-setting.html"
+                                                            class="iq-sub-card bg-success-light rounded-small p-2">
+                                                            <div class="media align-items-center">
+                                                                <div class="rounded iq-card-icon-small">
+                                                                    <i class="ri-account-box-line"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0 ">Account settings</h6>
+                                                                    <p class="mb-0 font-size-12">Manage your account parameters.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <a href="https://templates.iqonic.design/prox/html/app/user-privacy-setting.html"
+                                                            class="iq-sub-card bg-info-light rounded-small p-2">
+                                                            <div class="media align-items-center">
+                                                                <div class="rounded iq-card-icon-small">
+                                                                    <i class="ri-lock-line"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0 ">Privacy Settings</h6>
+                                                                    <p class="mb-0 font-size-12">Control your privacy
+                                                                        parameters.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="personal-details">
+                                                        <h5 class="card-title mb-3 mt-3">Personal Details</h5>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Birthday</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">3rd March</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Address</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">Landon</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Phone</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">(010)987 543 201</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Email</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">Barry@example.com</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Twitter</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">@Barry</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row align-items-center mb-2">
+                                                            <div class="col-sm-6">
+                                                                <h6>Facebook</h6>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <p class="mb-0">@Barry_Tech</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="p-3"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>        <div class="content-page">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-xl-6">
+                <h3 class="card-title pb-3">Welcome Ariana</h3>
+                        <ul class="welcome-block list-inline p-0 mb-0 row align-items-center">
+                            <li class="col-md-4 mb-4 mb-md-0">
+                                <div class="card bg-primary-light p-3 rounded position-relative overflow-hidden">
+                                    <span class="iq-overlay-image-block">
+                                        <i class="far fa-id-badge"></i>
+                                    </span>
+                                    <div class="icon iq-icon-box rounded text-center bg-primary mb-3">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                    </div>
+                                    <h4 class="mb-1">Upload <br>Assignment</h4>
+                                    <p class="mt-2">30/11/2020<br>4:20 PM</p>
+                                    <div class="block-btn mt-3">
+                                        <button type="submit" class="btn btn-primary learn-more">Upload</button>
+                                    </div>                                    
+                                </div>
+                            </li>
+                            <li class="col-md-4 mb-4 mb-md-0">
+                                <div class="card bg-info-light p-3 rounded position-relative overflow-hidden">
+                                    <span class="iq-overlay-image-block">
+                                        <i class="fas fa-globe"></i>
+                                    </span>
+                                    <div class="icon iq-icon-box rounded text-center bg-info mb-3">1</div>
+                                    <h4 class="mb-1">Physics <br>Assignment</h4>
+                                    <p class="mt-2">10/11/2020<br>1:15 PM</p>
+                                    <div class="block-btn mt-3">
+                                        <button type="submit" class="btn btn-info learn-more">Pending</button>
+                                    </div>                                    
+                                </div>
+                            </li>
+                            <li class="col-md-4">
+                                <div class="card bg-success-light p-3 rounded position-relative overflow-hidden">
+                                    <span class="iq-overlay-image-block">
+                                        <i class="far fa-calendar-alt"></i>
+                                    </span>
+                                    <div class="icon iq-icon-box rounded text-center bg-success mb-3">2</div>
+                                    <h4 class="mb-1">Biology <br>Assignment</h4>
+                                    <p class="mt-2">15/11/2020<br>5:15 PM</p>
+                                    <div class="block-btn mt-3">
+                                        <button type="submit" class="btn btn-success learn-more">Finished</button>
+                                    </div>                                    
+                                </div>
+                            </li>
+                        </ul>
+                   
+            </div>
+            <div class="col-lg-12 col-xl-6">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Branch</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">View All</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="school-chart-05" style="height: 260px"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="list-inline p-0 m-0">
+                                    <li class="mb-2">
+                                        <h6>Europe</h6>
+                                        <div class="iq-progress-bar-linear d-inline-block w-100">
+                                            <div class="iq-progress-bar">
+                                                <span class="bg-primary" data-percent="85"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <h6>North America</h6>
+                                        <div class="iq-progress-bar-linear d-inline-block w-100">
+                                            <div class="iq-progress-bar">
+                                                <span class="bg-warning" data-percent="65"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h6>Australia</h6>
+                                        <div class="iq-progress-bar-linear d-inline-block w-100">
+                                            <div class="iq-progress-bar">
+                                                <span class="bg-success" data-percent="40"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="fit-icon-2 text-center text-danger">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="iq-card-text pl-3">
+                                <p class="mb-1">Staff</p>
+                                <h4 class="text-danger"><b>1859</b></h4>
+                                <div>Increaded By 50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="fit-icon-2 text-center text-success">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="iq-card-text pl-3">
+                                <p class="mb-1">Progress</p>
+                                <h4 class="text-success"><b>50%</b></h4>
+                                <div>Increaded By 50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="fit-icon-2 text-center text-warning">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="iq-card-text pl-3">
+                                <p class="mb-1">Years</p>
+                                <h4 class="text-warning"><b>15 Years</b></h4>
+                                <div>Increaded By 80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <div class="col-lg-6 col-xl-3">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Top Teacher</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">View All</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../assets/images/user/user-1.jpg" class="img-fluid avatar-80 rounded" alt="image">
+                            <div class="teacher-detail ml-3">
+                                <h5>Petey Cruiser</h5>
+                                <p class="mb-0">Chemistry Expert</p>
+                                <div class="d-flex justify-content-left">
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star-half text-warning"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../assets/images/user/user-2.jpg" class="img-fluid avatar-80 rounded" alt="image">
+                            <div class="teacher-detail ml-3">
+                                <h5>Barb Ackue</h5>
+                                <p class="mb-0">Maths Expert</p>
+                                <div class="d-flex justify-content-left">
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="../assets/images/user/user-3.jpg" class="img-fluid avatar-80 rounded" alt="image">
+                            <div class="teacher-detail ml-3">
+                                <h5>Maya Didas</h5>
+                                <p class="mb-0">Physics Expert</p>
+                                <div class="d-flex justify-content-left">
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                    <a href="#"><i class="las la-star text-warning"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Courses Overview</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">View All</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="school-chart-04"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-9">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Courses Overview</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">View All</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table data-table mb-0 table-borderless tbl-recent-info text-body">
+                                <thead>
+                                    <tr class="text-dark">
+                                        <th scope="col">No</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Sr</th>
+                                        <th scope="col">DOB</th>
+                                        <th scope="col">Roll No.</th>
+                                        <th scope="col">Fees</th>
+                                        <th scope="col">Standard</th>
+                                        <th scope="col">Address</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-40 mr-2">
+                                                    <img src="../assets/images/user/01.jpg" class="img-fluid rounded" alt="image">
+                                                </div>
+                                                <div>Maggie Potts</div>
+                                            </div>
+                                        </td>
+                                        <td>05</td>
+                                        <td>01/09/2012</td>
+                                        <td>18</td>
+                                        <td><div class="badge badge-success">Paid</div></td>
+                                        <td> First</td>
+                                        <td>U.S.A</td>
+                                        <td>
+                                            <div class="d-flex align-items-center list-action">
+                                                <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                                <a class="badge bg-danger-light" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-40 mr-2">
+                                                    <img src="../assets/images/user/02.jpg" class="img-fluid rounded" alt="image">
+                                                </div>
+                                                <div>John Watson</div>
+                                            </div>
+                                        </td>
+                                        <td>05</td>
+                                        <td>01/09/2004</td>
+                                        <td>48</td>
+                                        <td>
+                                            <div class="badge badge-success">Paid</div>
+                                        </td>
+                                        <td>Fifth</td>
+                                        <td>U.S.A</td>
+                                        <td>
+                                            <div class="d-flex align-items-center list-action">
+                                                <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                                <a class="badge bg-danger-light" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-40 mr-2">
+                                                    <img src="../assets/images/user/03.jpg" class="img-fluid rounded" alt="image">
+                                                </div>
+                                                <div>Kadin Franci</div>
+                                            </div>
+                                        </td>
+                                        <td>07</td>
+                                        <td>01/09/2020</td>
+                                        <td>47</td>
+                                        <td>
+                                            <div class="badge badge-success">Paid</div>
+                                        </td>
+                                        <td>Second</td>
+                                        <td>U.S.A</td>
+                                        <td>
+                                            <div class="d-flex align-items-center list-action">
+                                                <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Edit" href="#"><i class="ri-pencil-line"></i></a>
+                                                <a class="badge bg-danger-light" data-toggle="tooltip" data-placement="top" title=""
+                                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
+                        
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-3">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Students</h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="school-chart-02" style="max-height: 250px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Result</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">Recent</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-inline p-0 m-0">
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="fit-icon-2 text-danger text-center">
+                                        <i class="fas fa-flask"></i>
+                                    </div>
+                                    <div class="iq-result-info pl-3">
+                                        <h5>Biology</h5>
+                                        <p class="mb-0">7 / 14 Chapters</p>
+                                    </div>
+                                    <div class="progress progress-round mx-auto danger">
+                                        <span class="progress-left">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <span class="progress-right">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <div class="progress-value text-danger">46%</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="fit-icon-2 text-success text-center">
+                                        <i class="fas fa-square-root-alt"></i>
+                                    </div>
+                                    <div class="iq-result-info pl-3">
+                                        <h5>Maths</h5>
+                                        <p class="mb-0">5 / 10 Chapters</p>
+                                    </div>
+                                    <div class="progress progress-round mx-auto success">
+                                        <span class="progress-left">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <span class="progress-right">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <div class="progress-value text-success">46%</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="fit-icon-2 text-info text-center">
+                                        <i class="fas fa-history"></i>
+                                    </div>
+                                    <div class="iq-result-info pl-3">
+                                        <h5>Physics</h5>
+                                        <p class="mb-0">8 / 15 Chapters</p>
+                                    </div>
+                                    <div class="progress progress-round mx-auto info">
+                                        <span class="progress-left">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <span class="progress-right">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <div class="progress-value text-info">90%</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="fit-icon-2 text-warning text-center">
+                                        <i class="fas fa-atom"></i>
+                                    </div>
+                                    <div class="iq-result-info pl-3">
+                                        <h5>Chemistry</h5>
+                                        <p class="mb-0">5 / 8 Chapters</p>
+                                    </div>
+                                    <div class="progress progress-round mx-auto warning">
+                                        <span class="progress-left">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <span class="progress-right">
+                                            <span class="progress-bar"></span>
+                                        </span>
+                                        <div class="progress-value text-warning">90%</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Activity</h4>
+                        </div>
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            <a href="#" class="btn btn-sm btn-outline-primary view-more">Recent</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-inline p-0 m-0">
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="icon iq-icon-box rounded bg-warning-light text-center">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <div class="iq-result-info">
+                                        <h5>Competition of making website</h5>
+                                        <p class="mb-0">12/ 09/ 2020</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="icon iq-icon-box rounded bg-info-light text-center">
+                                        <i class="fas fa-table-tennis"></i>
+                                    </div>
+                                    <div class="iq-result-info">
+                                        <h5>Physical Activity</h5>
+                                        <p class="mb-0">5/ 09/ 2020</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-4">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="icon iq-icon-box rounded bg-danger-light text-center">
+                                        <i class="fas fa-ruler-combined"></i>
+                                    </div>
+                                    <div class="iq-result-info">
+                                        <h5>Craft Competition</h5>
+                                        <p class="mb-0">25/ 08/ 2020</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="icon iq-icon-box rounded bg-success-light text-center">
+                                        <i class="fas fa-running"></i>
+                                    </div>
+                                    <div class="iq-result-info">
+                                        <h5>Sport Event</h5>
+                                        <p class="mb-0">10/ 08/ 2020</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="holiday-info mr-md-5">
+                                <h2>59</h2>
+                                <h4>Holidays</h4>
+                            </div>
+                            <div class="icon iq-icon-box bg-warning-light m-0 text-center rounded">
+                                <i class="fas fa-laugh"></i>
+                            </div>
+                        </div>
+                        <div class=" mt-3">
+                            <p class="mb-2">It is as impossible to withhold education from the receptive mind as it is impossible to force it upon the unreasoning.</p>
+                            <p class="mb-0">- Agnes Repplierg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img class="img-fluid rounded-small" src="../assets/images/icon/08.png"
+                                            alt="image"></a>
+                                    <div class="ml-3">
+                                        <h4>25 K</h4>
+                                        <p class="mb-0">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img class="img-fluid rounded-small" src="../assets/images/icon/10.png"
+                                            alt="image"></a>
+                                    <div class="ml-3">
+                                        <h4>689</h4>
+                                        <p class="mb-0">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img class="img-fluid rounded-small" src="../assets/images/icon/09.png"
+                                            alt="image"></a>
+                                    <div class="ml-3">
+                                        <h4>289</h4>
+                                        <p class="mb-0">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img class="img-fluid rounded-small" src="../assets/images/icon/13.png"
+                                            alt="image"></a>
+                                    <div class="ml-3">
+                                        <h4>15 K</h4>
+                                        <p class="mb-0">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <!-- Wrapper End-->
+    <footer class="iq-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="terms-of-service.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-right">
+                    Copyright 2020 <a href="#">ProX</a> All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Backend Bundle JavaScript -->
+    <script src="../assets/js/backend-bundle.min.js"></script>
+    
+    <!-- Flextree Javascript-->
+    <script src="../assets/js/flex-tree.min.js"></script>
+    <script src="../assets/js/tree.js"></script>
+    
+    <!-- Table Treeview JavaScript -->
+    <script src="../assets/js/table-treeview.js"></script>
+    
+    <!-- Masonary Gallery Javascript -->
+    <script src="../assets/js/masonry.pkgd.min.js"></script>
+    <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+    
+    <!-- Mapbox Javascript -->
+    <script src="../assets/js/mapbox-gl.js"></script>
+    <script src="../assets/js/mapbox.js"></script>
+    
+    <!-- Fullcalender Javascript -->
+    <script src='../assets/vendor/fullcalendar/core/main.js'></script>
+    <script src='../assets/vendor/fullcalendar/daygrid/main.js'></script>
+    <script src='../assets/vendor/fullcalendar/timegrid/main.js'></script>
+    <script src='../assets/vendor/fullcalendar/list/main.js'></script>
+    
+    <!-- SweetAlert JavaScript -->
+    <script src="../assets/js/sweetalert.js"></script>
+    
+    <!-- Vectoe Map JavaScript -->
+    <script src="../assets/js/vector-map-custom.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script src="../assets/js/customizer.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script src="../assets/js/chart-custom.js"></script>
+    
+    <!-- slider JavaScript -->
+    <script src="../assets/js/slider.js"></script>
+    
+    <!-- app JavaScript -->
+    <script src="../assets/js/app.js"></script>
+</body>
+
+
+<!-- Mirrored from templates.iqonic.design/prox/html/backend/layout-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Feb 2022 20:16:05 GMT -->
+</html>
